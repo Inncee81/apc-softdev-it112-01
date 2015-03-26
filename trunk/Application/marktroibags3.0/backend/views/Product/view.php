@@ -38,11 +38,11 @@ $this->params['breadcrumbs'][] = $this->title;
             'name',
             'description',
             'logo',
-            [
-              'attribute'=>'Product Img',
-              'value'=>'logo',
-            ],
         ],
+        
     ]) ?>
+    <?= $ImageName = $model->name; ?>
+    <?= Html::a('View Product','uploads/'.$ImageName.'.png') ?>
 
+    
 </div>

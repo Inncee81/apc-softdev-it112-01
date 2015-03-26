@@ -51,7 +51,7 @@ class Product extends \yii\db\ActiveRecord
             'id' => 'ID',
             'name' => 'Name',
             'description' => 'Description',
-            'file' => 'Product Img'
+            'file' => 'Product Img ------ Upload Images with file extension .png only'
         ];
     }
 

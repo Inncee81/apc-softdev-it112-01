@@ -32,5 +32,6 @@ use common\models\user;
     </div>
 
     <?php ActiveForm::end(); ?>
+    
 
 </div>
