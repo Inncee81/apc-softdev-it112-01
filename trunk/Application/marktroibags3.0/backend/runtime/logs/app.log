@@ -260,3 +260,1465 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1426367832.379
     'REQUEST_TIME' => 1426367832
 ]
+2015-03-25 16:41:39 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\models\User' not found' in C:\xampp\htdocs\marktroibags3.0\backend\models\Product.php:66
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-25 16:41:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'product/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'lfu7n2pkoip9777p89frr54re2'
+    '_csrf' => '60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs:32:\"nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/backend/web/index.php?r=product'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fil;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=lfu7n2pkoip9777p89frr54re2; _csrf=60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs%3A32%3A%22nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\EgisTec MyWinLocker\\x64;C:\\Program Files (x86)\\EgisTec MyWinLocker\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\VDownloader;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files\\Java\\jdk1.7.0\\bin;C:\\PROGRA~2\\IBM\\SQLLIB\\BIN;C:\\PROGRA~2\\IBM\\SQLLIB\\FUNCTION;C:\\PROGRA~2\\IBM\\SQLLIB\\SAMPLES\\REPL;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;c:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/backend/web/index.php'
+    'REMOTE_PORT' => '1816'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product%2Fcreate'
+    'REQUEST_URI' => '/marktroibags3.0/backend/web/index.php?r=product%2Fcreate'
+    'SCRIPT_NAME' => '/marktroibags3.0/backend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1427298099.4
+    'REQUEST_TIME' => 1427298099
+]
+2015-03-26 05:36:30 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\marktroibags3.0\backend\controllers\ProductController.php:118
+Stack trace:
+#0 C:\xampp\htdocs\marktroibags3.0\backend\controllers\ProductController.php(52): backend\controllers\ProductController->findModel('0')
+#1 [internal function]: backend\controllers\ProductController->actionView('0')
+#2 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('view', Array)
+#5 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('product/view', Array)
+#6 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\marktroibags3.0\backend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2015-03-26 05:36:30 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'product/view'
+    'id' => '0'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'lfu7n2pkoip9777p89frr54re2'
+    '_csrf' => '60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs:32:\"nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'fe2a4f655289ff73dbe71478dc79ec3f__id' => '1'
+    'fe2a4f655289ff73dbe71478dc79ec3f__name' => 'admin'
+    'fe2a4f655289ff73dbe71478dc79ec3f__states' => []
+    'fe2a4f655289ff73dbe71478dc79ec3fRights_isSuperuser' => true
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/backend/web/index.php?r=product%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fil;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=lfu7n2pkoip9777p89frr54re2; _csrf=60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs%3A32%3A%22nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\EgisTec MyWinLocker\\x64;C:\\Program Files (x86)\\EgisTec MyWinLocker\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\VDownloader;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files\\Java\\jdk1.7.0\\bin;C:\\PROGRA~2\\IBM\\SQLLIB\\BIN;C:\\PROGRA~2\\IBM\\SQLLIB\\FUNCTION;C:\\PROGRA~2\\IBM\\SQLLIB\\SAMPLES\\REPL;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;c:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/backend/web/index.php'
+    'REMOTE_PORT' => '42305'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product%2Fview&id=0'
+    'REQUEST_URI' => '/marktroibags3.0/backend/web/index.php?r=product%2Fview&id=0'
+    'SCRIPT_NAME' => '/marktroibags3.0/backend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1427344590.536
+    'REQUEST_TIME' => 1427344590
+]
+2015-03-26 05:38:00 [127.0.0.1][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'' in C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\db\Command.php:768
+Stack trace:
+#0 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\db\Command.php(768): PDOStatement->execute()
+#1 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\db\ActiveRecord.php(462): yii\db\Command->execute()
+#2 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\db\ActiveRecord.php(425): yii\db\ActiveRecord->insertInternal(NULL)
+#3 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\db\BaseActiveRecord.php(583): yii\db\ActiveRecord->insert(true, NULL)
+#4 C:\xampp\htdocs\marktroibags3.0\backend\controllers\ProductController.php(65): yii\db\BaseActiveRecord->save()
+#5 [internal function]: backend\controllers\ProductController->actionCreate()
+#6 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('product/create', Array)
+#10 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp\htdocs\marktroibags3.0\backend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `product` (`user_id`, `id`, `name`, `description`) VALUES (3, 1, 'Bag_2', 'Standard Shoulderbag')' in C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\db\Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `pr...')
+#1 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\db\ActiveRecord.php(462): yii\db\Command->execute()
+#2 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\db\ActiveRecord.php(425): yii\db\ActiveRecord->insertInternal(NULL)
+#3 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\db\BaseActiveRecord.php(583): yii\db\ActiveRecord->insert(true, NULL)
+#4 C:\xampp\htdocs\marktroibags3.0\backend\controllers\ProductController.php(65): yii\db\BaseActiveRecord->save()
+#5 [internal function]: backend\controllers\ProductController->actionCreate()
+#6 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('product/create', Array)
+#10 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp\htdocs\marktroibags3.0\backend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry '1' for key 'PRIMARY'
+)
+
+2015-03-26 05:38:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'product/create'
+]
+
+$_POST = [
+    '_csrf' => 'ZjNxYjlZMGgIQQYPXGFVJwRiJxR3L14aEV4IT00fcw8ESS4HAS1ZEg=='
+    'Product' => [
+        'user_id' => '3'
+        'id' => '1'
+        'name' => 'Bag_2'
+        'description' => 'Standard Shoulderbag'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'lfu7n2pkoip9777p89frr54re2'
+    '_csrf' => '60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs:32:\"nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '177'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/backend/web/index.php?r=product%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fil;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=lfu7n2pkoip9777p89frr54re2; _csrf=60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs%3A32%3A%22nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\EgisTec MyWinLocker\\x64;C:\\Program Files (x86)\\EgisTec MyWinLocker\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\VDownloader;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files\\Java\\jdk1.7.0\\bin;C:\\PROGRA~2\\IBM\\SQLLIB\\BIN;C:\\PROGRA~2\\IBM\\SQLLIB\\FUNCTION;C:\\PROGRA~2\\IBM\\SQLLIB\\SAMPLES\\REPL;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;c:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/backend/web/index.php'
+    'REMOTE_PORT' => '42340'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=product%2Fcreate'
+    'REQUEST_URI' => '/marktroibags3.0/backend/web/index.php?r=product%2Fcreate'
+    'SCRIPT_NAME' => '/marktroibags3.0/backend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1427344680.391
+    'REQUEST_TIME' => 1427344680
+]
+2015-03-26 06:01:37 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\models\User' not found' in C:\xampp\htdocs\marktroibags3.0\backend\models\Product.php:66
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-26 06:01:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'lfu7n2pkoip9777p89frr54re2'
+    '_csrf' => '60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs:32:\"nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/backend/web/index.php?r=product%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fil;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=lfu7n2pkoip9777p89frr54re2; _csrf=60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs%3A32%3A%22nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\EgisTec MyWinLocker\\x64;C:\\Program Files (x86)\\EgisTec MyWinLocker\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\VDownloader;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files\\Java\\jdk1.7.0\\bin;C:\\PROGRA~2\\IBM\\SQLLIB\\BIN;C:\\PROGRA~2\\IBM\\SQLLIB\\FUNCTION;C:\\PROGRA~2\\IBM\\SQLLIB\\SAMPLES\\REPL;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;c:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/backend/web/index.php'
+    'REMOTE_PORT' => '1767'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product%2Findex'
+    'REQUEST_URI' => '/marktroibags3.0/backend/web/index.php?r=product%2Findex'
+    'SCRIPT_NAME' => '/marktroibags3.0/backend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1427346097.577
+    'REQUEST_TIME' => 1427346097
+]
+2015-03-26 06:06:56 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\models\User' not found' in C:\xampp\htdocs\marktroibags3.0\backend\models\Product.php:66
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-26 06:06:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'lfu7n2pkoip9777p89frr54re2'
+    '_csrf' => '60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs:32:\"nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/backend/web/index.php?r=product%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fil;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=lfu7n2pkoip9777p89frr54re2; _csrf=60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs%3A32%3A%22nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\EgisTec MyWinLocker\\x64;C:\\Program Files (x86)\\EgisTec MyWinLocker\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\VDownloader;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files\\Java\\jdk1.7.0\\bin;C:\\PROGRA~2\\IBM\\SQLLIB\\BIN;C:\\PROGRA~2\\IBM\\SQLLIB\\FUNCTION;C:\\PROGRA~2\\IBM\\SQLLIB\\SAMPLES\\REPL;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;c:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/backend/web/index.php'
+    'REMOTE_PORT' => '1791'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product%2Findex'
+    'REQUEST_URI' => '/marktroibags3.0/backend/web/index.php?r=product%2Findex'
+    'SCRIPT_NAME' => '/marktroibags3.0/backend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1427346416.051
+    'REQUEST_TIME' => 1427346416
+]
+2015-03-26 06:08:27 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Relation names are case sensitive. backend\models\Product has a relation named "user" instead of "User".' in C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\db\ActiveRelationTrait.php:153
+Stack trace:
+#0 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\db\BaseActiveRecord.php(249): yii\db\ActiveQuery->findFor('User', Object(backend\models\Product))
+#1 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(190): yii\db\BaseActiveRecord->__get('User')
+#2 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(185): yii\helpers\BaseArrayHelper::getValue(Object(backend\models\Product), 'User', NULL)
+#3 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\DataColumn.php(193): yii\helpers\BaseArrayHelper::getValue(Object(backend\models\Product), 'User.username')
+#4 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(backend\models\Product), 1, 0)
+#5 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(backend\models\Product), 1, 0)
+#6 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(backend\models\Product), 1, 0)
+#7 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(backend\models\Product), 1, 0)
+#8 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#9 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#10 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#14 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#15 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#16 C:\xampp\htdocs\marktroibags3.0\backend\views\Product\index.php(36): yii\base\Widget::widget(Array)
+#17 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\View.php(325): require('C:\xampp\htdocs...')
+#18 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\xampp\htdocs...', Array)
+#19 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\xampp\htdocs...', Array, Object(backend\controllers\ProductController))
+#20 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(backend\controllers\ProductController))
+#21 C:\xampp\htdocs\marktroibags3.0\backend\controllers\ProductController.php(41): yii\base\Controller->render('index', Array)
+#22 [internal function]: backend\controllers\ProductController->actionIndex()
+#23 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#24 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#25 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#26 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('product/index', Array)
+#27 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\xampp\htdocs\marktroibags3.0\backend\web\index.php(18): yii\base\Application->run()
+#29 {main}
+2015-03-26 06:08:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'lfu7n2pkoip9777p89frr54re2'
+    '_csrf' => '60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs:32:\"nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/backend/web/index.php?r=product%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fil;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=lfu7n2pkoip9777p89frr54re2; _csrf=60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs%3A32%3A%22nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\EgisTec MyWinLocker\\x64;C:\\Program Files (x86)\\EgisTec MyWinLocker\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\VDownloader;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files\\Java\\jdk1.7.0\\bin;C:\\PROGRA~2\\IBM\\SQLLIB\\BIN;C:\\PROGRA~2\\IBM\\SQLLIB\\FUNCTION;C:\\PROGRA~2\\IBM\\SQLLIB\\SAMPLES\\REPL;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;c:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/backend/web/index.php'
+    'REMOTE_PORT' => '1807'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product%2Findex'
+    'REQUEST_URI' => '/marktroibags3.0/backend/web/index.php?r=product%2Findex'
+    'SCRIPT_NAME' => '/marktroibags3.0/backend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1427346507.462
+    'REQUEST_TIME' => 1427346507
+]
+2015-03-26 06:08:55 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Relation names are case sensitive. backend\models\Product has a relation named "user" instead of "User".' in C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\db\ActiveRelationTrait.php:153
+Stack trace:
+#0 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\db\BaseActiveRecord.php(249): yii\db\ActiveQuery->findFor('User', Object(backend\models\Product))
+#1 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(190): yii\db\BaseActiveRecord->__get('User')
+#2 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(185): yii\helpers\BaseArrayHelper::getValue(Object(backend\models\Product), 'User', NULL)
+#3 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\DataColumn.php(193): yii\helpers\BaseArrayHelper::getValue(Object(backend\models\Product), 'User.username')
+#4 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(backend\models\Product), 1, 0)
+#5 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(backend\models\Product), 1, 0)
+#6 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(backend\models\Product), 1, 0)
+#7 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(backend\models\Product), 1, 0)
+#8 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#9 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#10 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#14 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#15 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#16 C:\xampp\htdocs\marktroibags3.0\backend\views\Product\index.php(36): yii\base\Widget::widget(Array)
+#17 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\View.php(325): require('C:\xampp\htdocs...')
+#18 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\xampp\htdocs...', Array)
+#19 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\xampp\htdocs...', Array, Object(backend\controllers\ProductController))
+#20 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(backend\controllers\ProductController))
+#21 C:\xampp\htdocs\marktroibags3.0\backend\controllers\ProductController.php(41): yii\base\Controller->render('index', Array)
+#22 [internal function]: backend\controllers\ProductController->actionIndex()
+#23 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#24 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#25 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#26 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('product/index', Array)
+#27 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\xampp\htdocs\marktroibags3.0\backend\web\index.php(18): yii\base\Application->run()
+#29 {main}
+2015-03-26 06:08:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'lfu7n2pkoip9777p89frr54re2'
+    '_csrf' => '60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs:32:\"nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/backend/web/index.php?r=product%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fil;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=lfu7n2pkoip9777p89frr54re2; _csrf=60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs%3A32%3A%22nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\EgisTec MyWinLocker\\x64;C:\\Program Files (x86)\\EgisTec MyWinLocker\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\VDownloader;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files\\Java\\jdk1.7.0\\bin;C:\\PROGRA~2\\IBM\\SQLLIB\\BIN;C:\\PROGRA~2\\IBM\\SQLLIB\\FUNCTION;C:\\PROGRA~2\\IBM\\SQLLIB\\SAMPLES\\REPL;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;c:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/backend/web/index.php'
+    'REMOTE_PORT' => '1814'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product%2Findex'
+    'REQUEST_URI' => '/marktroibags3.0/backend/web/index.php?r=product%2Findex'
+    'SCRIPT_NAME' => '/marktroibags3.0/backend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1427346535.217
+    'REQUEST_TIME' => 1427346535
+]
+2015-03-26 06:26:22 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/about' in C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('about', Array)
+#1 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/about', Array)
+#2 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\marktroibags3.0\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\marktroibags3.0\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-03-26 06:26:22 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    '_csrf' => '60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs:32:\"nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz\";'
+    'PHPSESSID' => 'bnhj2m0feo7ruga67qndffc220'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/marktroibags3.0/backend/web/index.php'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/backend/web/index.php?r=product%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fil;q=0.6'
+    'HTTP_COOKIE' => '_csrf=60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs%3A32%3A%22nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz%22%3B; PHPSESSID=bnhj2m0feo7ruga67qndffc220'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\EgisTec MyWinLocker\\x64;C:\\Program Files (x86)\\EgisTec MyWinLocker\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\VDownloader;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files\\Java\\jdk1.7.0\\bin;C:\\PROGRA~2\\IBM\\SQLLIB\\BIN;C:\\PROGRA~2\\IBM\\SQLLIB\\FUNCTION;C:\\PROGRA~2\\IBM\\SQLLIB\\SAMPLES\\REPL;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;c:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/backend/web/index.php'
+    'REMOTE_PORT' => '1934'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/marktroibags3.0/backend/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/marktroibags3.0/backend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1427347582.505
+    'REQUEST_TIME' => 1427347582
+]
+2015-03-26 06:26:25 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/contact' in C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('contact', Array)
+#1 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/contact', Array)
+#2 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\marktroibags3.0\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\marktroibags3.0\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-03-26 06:26:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_csrf' => '60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs:32:\"nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz\";'
+    'PHPSESSID' => 'bnhj2m0feo7ruga67qndffc220'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/marktroibags3.0/backend/web/index.php'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/backend/web/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fil;q=0.6'
+    'HTTP_COOKIE' => '_csrf=60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs%3A32%3A%22nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz%22%3B; PHPSESSID=bnhj2m0feo7ruga67qndffc220'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\EgisTec MyWinLocker\\x64;C:\\Program Files (x86)\\EgisTec MyWinLocker\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\VDownloader;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files\\Java\\jdk1.7.0\\bin;C:\\PROGRA~2\\IBM\\SQLLIB\\BIN;C:\\PROGRA~2\\IBM\\SQLLIB\\FUNCTION;C:\\PROGRA~2\\IBM\\SQLLIB\\SAMPLES\\REPL;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;c:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/backend/web/index.php'
+    'REMOTE_PORT' => '1934'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/marktroibags3.0/backend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/marktroibags3.0/backend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1427347585.079
+    'REQUEST_TIME' => 1427347585
+]
+2015-03-26 06:26:27 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/about' in C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('about', Array)
+#1 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/about', Array)
+#2 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\marktroibags3.0\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\marktroibags3.0\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-03-26 06:26:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    '_csrf' => '60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs:32:\"nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz\";'
+    'PHPSESSID' => 'bnhj2m0feo7ruga67qndffc220'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/marktroibags3.0/backend/web/index.php'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/backend/web/index.php?r=site%2Fcontact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fil;q=0.6'
+    'HTTP_COOKIE' => '_csrf=60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs%3A32%3A%22nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz%22%3B; PHPSESSID=bnhj2m0feo7ruga67qndffc220'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\EgisTec MyWinLocker\\x64;C:\\Program Files (x86)\\EgisTec MyWinLocker\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\VDownloader;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files\\Java\\jdk1.7.0\\bin;C:\\PROGRA~2\\IBM\\SQLLIB\\BIN;C:\\PROGRA~2\\IBM\\SQLLIB\\FUNCTION;C:\\PROGRA~2\\IBM\\SQLLIB\\SAMPLES\\REPL;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;c:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/backend/web/index.php'
+    'REMOTE_PORT' => '1935'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/marktroibags3.0/backend/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/marktroibags3.0/backend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1427347587.046
+    'REQUEST_TIME' => 1427347587
+]
+2015-03-26 06:26:28 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/contact' in C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('contact', Array)
+#1 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/contact', Array)
+#2 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\marktroibags3.0\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\marktroibags3.0\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-03-26 06:26:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_csrf' => '60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs:32:\"nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz\";'
+    'PHPSESSID' => 'bnhj2m0feo7ruga67qndffc220'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/marktroibags3.0/backend/web/index.php'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/backend/web/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fil;q=0.6'
+    'HTTP_COOKIE' => '_csrf=60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs%3A32%3A%22nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz%22%3B; PHPSESSID=bnhj2m0feo7ruga67qndffc220'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\EgisTec MyWinLocker\\x64;C:\\Program Files (x86)\\EgisTec MyWinLocker\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\VDownloader;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files\\Java\\jdk1.7.0\\bin;C:\\PROGRA~2\\IBM\\SQLLIB\\BIN;C:\\PROGRA~2\\IBM\\SQLLIB\\FUNCTION;C:\\PROGRA~2\\IBM\\SQLLIB\\SAMPLES\\REPL;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;c:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/backend/web/index.php'
+    'REMOTE_PORT' => '1935'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/marktroibags3.0/backend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/marktroibags3.0/backend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1427347588.529
+    'REQUEST_TIME' => 1427347588
+]
+2015-03-26 06:49:19 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: common\models\User::usernme' in C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\db\BaseActiveRecord.php(247): yii\base\Component->__get('usernme')
+#1 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(190): yii\db\BaseActiveRecord->__get('usernme')
+#2 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\DataColumn.php(188): yii\helpers\BaseArrayHelper::getValue(Object(backend\models\Product), 'user.usernme')
+#3 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(backend\models\Product), 1, 0)
+#4 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(backend\models\Product), 1, 0)
+#5 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(backend\models\Product), 1, 0)
+#6 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(backend\models\Product), 1, 0)
+#7 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#8 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#9 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#10 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#11 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#12 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#13 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#14 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#15 C:\xampp\htdocs\marktroibags3.0\backend\views\Product\index.php(40): yii\base\Widget::widget(Array)
+#16 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\View.php(325): require('C:\xampp\htdocs...')
+#17 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\xampp\htdocs...', Array)
+#18 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\xampp\htdocs...', Array, Object(backend\controllers\ProductController))
+#19 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(backend\controllers\ProductController))
+#20 C:\xampp\htdocs\marktroibags3.0\backend\controllers\ProductController.php(41): yii\base\Controller->render('index', Array)
+#21 [internal function]: backend\controllers\ProductController->actionIndex()
+#22 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#23 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#24 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#25 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('product/index', Array)
+#26 C:\xampp\htdocs\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 C:\xampp\htdocs\marktroibags3.0\backend\web\index.php(18): yii\base\Application->run()
+#28 {main}
+2015-03-26 06:49:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs:32:\"nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz\";'
+    'PHPSESSID' => 'bnhj2m0feo7ruga67qndffc220'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/backend/web/index.php?r=site%2Fcontact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fil;q=0.6'
+    'HTTP_COOKIE' => '_csrf=60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs%3A32%3A%22nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz%22%3B; PHPSESSID=bnhj2m0feo7ruga67qndffc220'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\EgisTec MyWinLocker\\x64;C:\\Program Files (x86)\\EgisTec MyWinLocker\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\VDownloader;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files\\Java\\jdk1.7.0\\bin;C:\\PROGRA~2\\IBM\\SQLLIB\\BIN;C:\\PROGRA~2\\IBM\\SQLLIB\\FUNCTION;C:\\PROGRA~2\\IBM\\SQLLIB\\SAMPLES\\REPL;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;c:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/backend/web/index.php'
+    'REMOTE_PORT' => '2160'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product%2Findex'
+    'REQUEST_URI' => '/marktroibags3.0/backend/web/index.php?r=product%2Findex'
+    'SCRIPT_NAME' => '/marktroibags3.0/backend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1427348959.167
+    'REQUEST_TIME' => 1427348959
+]
+2015-03-26 07:13:57 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in C:\xampp\htdocs\marktroibags3.0\backend\models\ProductSearch.php:67
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-26 07:13:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'ProductSearch' => [
+        'user_id' => 'dygahallon'
+        'id' => ''
+        'name' => ''
+        'description' => ''
+    ]
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs:32:\"nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz\";'
+    'PHPSESSID' => 'bnhj2m0feo7ruga67qndffc220'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/backend/web/index.php?r=product%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fil;q=0.6'
+    'HTTP_COOKIE' => '_csrf=60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs%3A32%3A%22nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz%22%3B; PHPSESSID=bnhj2m0feo7ruga67qndffc220'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\EgisTec MyWinLocker\\x64;C:\\Program Files (x86)\\EgisTec MyWinLocker\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\VDownloader;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files\\Java\\jdk1.7.0\\bin;C:\\PROGRA~2\\IBM\\SQLLIB\\BIN;C:\\PROGRA~2\\IBM\\SQLLIB\\FUNCTION;C:\\PROGRA~2\\IBM\\SQLLIB\\SAMPLES\\REPL;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;c:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/backend/web/index.php'
+    'REMOTE_PORT' => '2321'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'ProductSearch%5Buser_id%5D=dygahallon&ProductSearch%5Bid%5D=&ProductSearch%5Bname%5D=&ProductSearch%5Bdescription%5D=&r=product%2Findex'
+    'REQUEST_URI' => '/marktroibags3.0/backend/web/index.php?ProductSearch%5Buser_id%5D=dygahallon&ProductSearch%5Bid%5D=&ProductSearch%5Bname%5D=&ProductSearch%5Bdescription%5D=&r=product%2Findex'
+    'SCRIPT_NAME' => '/marktroibags3.0/backend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1427350437.226
+    'REQUEST_TIME' => 1427350437
+]
+2015-03-26 07:14:32 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in C:\xampp\htdocs\marktroibags3.0\backend\models\ProductSearch.php:67
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-26 07:14:32 [127.0.0.1][-][-][info][application] $_GET = [
+    'ProductSearch' => [
+        'user_id' => 'dygahallon'
+        'id' => ''
+        'name' => ''
+        'description' => ''
+    ]
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs:32:\"nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz\";'
+    'PHPSESSID' => 'bnhj2m0feo7ruga67qndffc220'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/backend/web/index.php?r=product%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fil;q=0.6'
+    'HTTP_COOKIE' => '_csrf=60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs%3A32%3A%22nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz%22%3B; PHPSESSID=bnhj2m0feo7ruga67qndffc220'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\EgisTec MyWinLocker\\x64;C:\\Program Files (x86)\\EgisTec MyWinLocker\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\VDownloader;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files\\Java\\jdk1.7.0\\bin;C:\\PROGRA~2\\IBM\\SQLLIB\\BIN;C:\\PROGRA~2\\IBM\\SQLLIB\\FUNCTION;C:\\PROGRA~2\\IBM\\SQLLIB\\SAMPLES\\REPL;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;c:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/backend/web/index.php'
+    'REMOTE_PORT' => '2328'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'ProductSearch%5Buser_id%5D=dygahallon&ProductSearch%5Bid%5D=&ProductSearch%5Bname%5D=&ProductSearch%5Bdescription%5D=&r=product%2Findex'
+    'REQUEST_URI' => '/marktroibags3.0/backend/web/index.php?ProductSearch%5Buser_id%5D=dygahallon&ProductSearch%5Bid%5D=&ProductSearch%5Bname%5D=&ProductSearch%5Bdescription%5D=&r=product%2Findex'
+    'SCRIPT_NAME' => '/marktroibags3.0/backend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1427350472.785
+    'REQUEST_TIME' => 1427350472
+]
+2015-03-26 07:15:10 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in C:\xampp\htdocs\marktroibags3.0\backend\models\ProductSearch.php:67
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-26 07:15:10 [127.0.0.1][-][-][info][application] $_GET = [
+    'ProductSearch' => [
+        'user_id' => 'dygahallon'
+        'id' => ''
+        'name' => ''
+        'description' => ''
+    ]
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs:32:\"nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz\";'
+    'PHPSESSID' => 'bnhj2m0feo7ruga67qndffc220'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/backend/web/index.php?r=product%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fil;q=0.6'
+    'HTTP_COOKIE' => '_csrf=60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs%3A32%3A%22nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz%22%3B; PHPSESSID=bnhj2m0feo7ruga67qndffc220'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\EgisTec MyWinLocker\\x64;C:\\Program Files (x86)\\EgisTec MyWinLocker\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\VDownloader;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files\\Java\\jdk1.7.0\\bin;C:\\PROGRA~2\\IBM\\SQLLIB\\BIN;C:\\PROGRA~2\\IBM\\SQLLIB\\FUNCTION;C:\\PROGRA~2\\IBM\\SQLLIB\\SAMPLES\\REPL;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;c:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/backend/web/index.php'
+    'REMOTE_PORT' => '2333'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'ProductSearch%5Buser_id%5D=dygahallon&ProductSearch%5Bid%5D=&ProductSearch%5Bname%5D=&ProductSearch%5Bdescription%5D=&r=product%2Findex'
+    'REQUEST_URI' => '/marktroibags3.0/backend/web/index.php?ProductSearch%5Buser_id%5D=dygahallon&ProductSearch%5Bid%5D=&ProductSearch%5Bname%5D=&ProductSearch%5Bdescription%5D=&r=product%2Findex'
+    'SCRIPT_NAME' => '/marktroibags3.0/backend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1427350510.641
+    'REQUEST_TIME' => 1427350510
+]
+2015-03-26 07:15:25 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in C:\xampp\htdocs\marktroibags3.0\backend\models\ProductSearch.php:67
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-26 07:15:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'ProductSearch' => [
+        'user_id' => 'dygahallon'
+        'id' => ''
+        'name' => ''
+        'description' => ''
+    ]
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs:32:\"nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz\";'
+    'PHPSESSID' => 'bnhj2m0feo7ruga67qndffc220'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/backend/web/index.php?r=product%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fil;q=0.6'
+    'HTTP_COOKIE' => '_csrf=60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs%3A32%3A%22nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz%22%3B; PHPSESSID=bnhj2m0feo7ruga67qndffc220'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\EgisTec MyWinLocker\\x64;C:\\Program Files (x86)\\EgisTec MyWinLocker\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\VDownloader;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files\\Java\\jdk1.7.0\\bin;C:\\PROGRA~2\\IBM\\SQLLIB\\BIN;C:\\PROGRA~2\\IBM\\SQLLIB\\FUNCTION;C:\\PROGRA~2\\IBM\\SQLLIB\\SAMPLES\\REPL;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;c:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/backend/web/index.php'
+    'REMOTE_PORT' => '2335'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'ProductSearch%5Buser_id%5D=dygahallon&ProductSearch%5Bid%5D=&ProductSearch%5Bname%5D=&ProductSearch%5Bdescription%5D=&r=product%2Findex'
+    'REQUEST_URI' => '/marktroibags3.0/backend/web/index.php?ProductSearch%5Buser_id%5D=dygahallon&ProductSearch%5Bid%5D=&ProductSearch%5Bname%5D=&ProductSearch%5Bdescription%5D=&r=product%2Findex'
+    'SCRIPT_NAME' => '/marktroibags3.0/backend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1427350525.519
+    'REQUEST_TIME' => 1427350525
+]
+2015-03-26 07:17:21 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in C:\xampp\htdocs\marktroibags3.0\backend\models\ProductSearch.php:67
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-26 07:17:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'ProductSearch' => [
+        'user_id' => 'dygahallon'
+        'id' => ''
+        'name' => ''
+        'description' => ''
+    ]
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs:32:\"nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz\";'
+    'PHPSESSID' => 'bnhj2m0feo7ruga67qndffc220'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/backend/web/index.php?r=product%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fil;q=0.6'
+    'HTTP_COOKIE' => '_csrf=60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs%3A32%3A%22nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz%22%3B; PHPSESSID=bnhj2m0feo7ruga67qndffc220'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\EgisTec MyWinLocker\\x64;C:\\Program Files (x86)\\EgisTec MyWinLocker\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\VDownloader;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files\\Java\\jdk1.7.0\\bin;C:\\PROGRA~2\\IBM\\SQLLIB\\BIN;C:\\PROGRA~2\\IBM\\SQLLIB\\FUNCTION;C:\\PROGRA~2\\IBM\\SQLLIB\\SAMPLES\\REPL;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;c:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/backend/web/index.php'
+    'REMOTE_PORT' => '2341'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'ProductSearch%5Buser_id%5D=dygahallon&ProductSearch%5Bid%5D=&ProductSearch%5Bname%5D=&ProductSearch%5Bdescription%5D=&r=product%2Findex'
+    'REQUEST_URI' => '/marktroibags3.0/backend/web/index.php?ProductSearch%5Buser_id%5D=dygahallon&ProductSearch%5Bid%5D=&ProductSearch%5Bname%5D=&ProductSearch%5Bdescription%5D=&r=product%2Findex'
+    'SCRIPT_NAME' => '/marktroibags3.0/backend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1427350641.72
+    'REQUEST_TIME' => 1427350641
+]
+2015-03-26 07:17:23 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in C:\xampp\htdocs\marktroibags3.0\backend\models\ProductSearch.php:67
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-26 07:17:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'ProductSearch' => [
+        'user_id' => 'dygahallon'
+        'id' => ''
+        'name' => ''
+        'description' => ''
+    ]
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs:32:\"nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz\";'
+    'PHPSESSID' => 'bnhj2m0feo7ruga67qndffc220'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/backend/web/index.php?r=product%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fil;q=0.6'
+    'HTTP_COOKIE' => '_csrf=60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs%3A32%3A%22nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz%22%3B; PHPSESSID=bnhj2m0feo7ruga67qndffc220'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\EgisTec MyWinLocker\\x64;C:\\Program Files (x86)\\EgisTec MyWinLocker\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\VDownloader;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files\\Java\\jdk1.7.0\\bin;C:\\PROGRA~2\\IBM\\SQLLIB\\BIN;C:\\PROGRA~2\\IBM\\SQLLIB\\FUNCTION;C:\\PROGRA~2\\IBM\\SQLLIB\\SAMPLES\\REPL;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;c:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/backend/web/index.php'
+    'REMOTE_PORT' => '2342'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'ProductSearch%5Buser_id%5D=dygahallon&ProductSearch%5Bid%5D=&ProductSearch%5Bname%5D=&ProductSearch%5Bdescription%5D=&r=product%2Findex'
+    'REQUEST_URI' => '/marktroibags3.0/backend/web/index.php?ProductSearch%5Buser_id%5D=dygahallon&ProductSearch%5Bid%5D=&ProductSearch%5Bname%5D=&ProductSearch%5Bdescription%5D=&r=product%2Findex'
+    'SCRIPT_NAME' => '/marktroibags3.0/backend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1427350643.588
+    'REQUEST_TIME' => 1427350643
+]
+2015-03-26 07:17:38 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in C:\xampp\htdocs\marktroibags3.0\backend\models\ProductSearch.php:67
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-26 07:17:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs:32:\"nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz\";'
+    'PHPSESSID' => 'bnhj2m0feo7ruga67qndffc220'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/backend/web/index.php?ProductSearch%5Buser_id%5D=dy&ProductSearch%5Bid%5D=&ProductSearch%5Bname%5D=&ProductSearch%5Bdescription%5D=&r=product%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fil;q=0.6'
+    'HTTP_COOKIE' => '_csrf=60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs%3A32%3A%22nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz%22%3B; PHPSESSID=bnhj2m0feo7ruga67qndffc220'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\EgisTec MyWinLocker\\x64;C:\\Program Files (x86)\\EgisTec MyWinLocker\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\VDownloader;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files\\Java\\jdk1.7.0\\bin;C:\\PROGRA~2\\IBM\\SQLLIB\\BIN;C:\\PROGRA~2\\IBM\\SQLLIB\\FUNCTION;C:\\PROGRA~2\\IBM\\SQLLIB\\SAMPLES\\REPL;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;c:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/backend/web/index.php'
+    'REMOTE_PORT' => '2345'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product%2Findex'
+    'REQUEST_URI' => '/marktroibags3.0/backend/web/index.php?r=product%2Findex'
+    'SCRIPT_NAME' => '/marktroibags3.0/backend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1427350658.058
+    'REQUEST_TIME' => 1427350658
+]
+2015-03-26 07:17:39 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in C:\xampp\htdocs\marktroibags3.0\backend\models\ProductSearch.php:67
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-26 07:17:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'ProductSearch' => [
+        'user_id' => 'dy'
+        'id' => ''
+        'name' => ''
+        'description' => ''
+    ]
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs:32:\"nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz\";'
+    'PHPSESSID' => 'bnhj2m0feo7ruga67qndffc220'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/backend/web/index.php?r=product%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fil;q=0.6'
+    'HTTP_COOKIE' => '_csrf=60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs%3A32%3A%22nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz%22%3B; PHPSESSID=bnhj2m0feo7ruga67qndffc220'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\EgisTec MyWinLocker\\x64;C:\\Program Files (x86)\\EgisTec MyWinLocker\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\VDownloader;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files\\Java\\jdk1.7.0\\bin;C:\\PROGRA~2\\IBM\\SQLLIB\\BIN;C:\\PROGRA~2\\IBM\\SQLLIB\\FUNCTION;C:\\PROGRA~2\\IBM\\SQLLIB\\SAMPLES\\REPL;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;c:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/backend/web/index.php'
+    'REMOTE_PORT' => '2346'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'ProductSearch%5Buser_id%5D=dy&ProductSearch%5Bid%5D=&ProductSearch%5Bname%5D=&ProductSearch%5Bdescription%5D=&r=product%2Findex'
+    'REQUEST_URI' => '/marktroibags3.0/backend/web/index.php?ProductSearch%5Buser_id%5D=dy&ProductSearch%5Bid%5D=&ProductSearch%5Bname%5D=&ProductSearch%5Bdescription%5D=&r=product%2Findex'
+    'SCRIPT_NAME' => '/marktroibags3.0/backend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1427350658.975
+    'REQUEST_TIME' => 1427350658
+]
+2015-03-26 07:17:42 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in C:\xampp\htdocs\marktroibags3.0\backend\models\ProductSearch.php:67
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-26 07:17:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'ProductSearch' => [
+        'user_id' => ''
+        'id' => ''
+        'name' => ''
+        'description' => ''
+    ]
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs:32:\"nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz\";'
+    'PHPSESSID' => 'bnhj2m0feo7ruga67qndffc220'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/backend/web/index.php?ProductSearch%5Buser_id%5D=dy&ProductSearch%5Bid%5D=&ProductSearch%5Bname%5D=&ProductSearch%5Bdescription%5D=&r=product%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fil;q=0.6'
+    'HTTP_COOKIE' => '_csrf=60f8b6569c4e114326fe1c441a5db7479ec87d92a5fbb65aa84acdc5c53bd4ccs%3A32%3A%22nrwme8eObQVvNvnrwmy-tFCgbz_e8tiz%22%3B; PHPSESSID=bnhj2m0feo7ruga67qndffc220'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\EgisTec MyWinLocker\\x64;C:\\Program Files (x86)\\EgisTec MyWinLocker\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\VDownloader;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files\\Java\\jdk1.7.0\\bin;C:\\PROGRA~2\\IBM\\SQLLIB\\BIN;C:\\PROGRA~2\\IBM\\SQLLIB\\FUNCTION;C:\\PROGRA~2\\IBM\\SQLLIB\\SAMPLES\\REPL;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft\\Web Platform Installer\\;c:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.3 (Win32) OpenSSL/1.0.1c PHP/5.4.7'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/backend/web/index.php'
+    'REMOTE_PORT' => '2347'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'ProductSearch%5Buser_id%5D=&ProductSearch%5Bid%5D=&ProductSearch%5Bname%5D=&ProductSearch%5Bdescription%5D=&r=product%2Findex'
+    'REQUEST_URI' => '/marktroibags3.0/backend/web/index.php?ProductSearch%5Buser_id%5D=&ProductSearch%5Bid%5D=&ProductSearch%5Bname%5D=&ProductSearch%5Bdescription%5D=&r=product%2Findex'
+    'SCRIPT_NAME' => '/marktroibags3.0/backend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1427350661.957
+    'REQUEST_TIME' => 1427350661
+]
