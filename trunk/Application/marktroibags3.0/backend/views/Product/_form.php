@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use yii\helpers\ArrayHelper;
-use common\models\User;
+use common\models\user;
 
 /* @var $this yii\web\View */
 /* @var $model backend\models\Product */
@@ -15,8 +15,8 @@ use common\models\User;
     <?php $form = ActiveForm::begin(); ?>
 
     <?= $form->field($model, 'user_id')->dropDownlist(
-        ArrayHelper::map(User::find()->all(),'id','username'),
-        ['prompt'=>'Select User']
+        ArrayHelper::map(user::find()->all(),'id','username'),
+        ['prompt'=>'Select user']
      )?>   
 
     <?= $form->field($model, 'id')->textInput() ?>

@@ -3,6 +3,7 @@
 namespace backend\models;
 
 use Yii;
+use common\models\user;
 
 /**
  * This is the model class for table "product".
@@ -13,7 +14,7 @@ use Yii;
  * @property string $description
  *
  * @property Order[] $orders
- * @property User $user
+ * @property user $user
  */
 class Product extends \yii\db\ActiveRecord
 {
@@ -43,7 +44,7 @@ class Product extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'user_id' => 'User',
+            'user_id' => 'user',
             'id' => 'ID',
             'name' => 'Name',
             'description' => 'Description',
@@ -61,8 +62,8 @@ class Product extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getUser()
+    public function getuser()
     {
-        return $this->hasOne(User::className(), ['id' => 'user_id']);
+        return $this->hasOne(user::className(), ['id' => 'user_id']);
     }
 }
