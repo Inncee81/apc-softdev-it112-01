@@ -29,12 +29,15 @@ class Product extends \yii\db\ActiveRecord
     /**
      * @inheritdoc
      */
+    public $file;
+     
     public function rules()
     {
         return [
             [['user_id', 'id', 'name', 'description'], 'required'],
             [['user_id', 'id'], 'integer'],
-            [['name', 'description'], 'string', 'max' => 45]
+            [['name', 'description','logo'], 'string', 'max' => 200],
+            [['file'],'file']
         ];
     }
 
@@ -48,6 +51,7 @@ class Product extends \yii\db\ActiveRecord
             'id' => 'ID',
             'name' => 'Name',
             'description' => 'Description',
+            'file' => 'Product Img'
         ];
     }
 
