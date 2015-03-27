@@ -2,9 +2,14 @@
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
+use frontend\models\Product;
+use frontend\models\ProductSearch;
+
+use yii\grid\GridView;
+use common\models\user;
 
 /* @var $this yii\web\View */
-/* @var $model backend\models\Product */
+/* @var $model frontend\models\Product */
 
 $this->title = $model->name;
 $this->params['breadcrumbs'][] = ['label' => 'Products', 'url' => ['index']];
@@ -14,22 +19,21 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <h1><?= Html::encode($this->title) ?></h1>
 
-    <p>
-        <?= Html::a('Add to cart', ['cart', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
-        
-    </p>
+   
 
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
-            'user_id',
-            'id',
+            
+           
             'name',
             'description',
-            'logo',
+           
         ],
         
     ]) ?>
-    
+    <?= $ImageName = $model->name; ?>
+    <?= Html::a('View Product','uploads/'.$ImageName.'.png') ?>
 
+    
 </div>
