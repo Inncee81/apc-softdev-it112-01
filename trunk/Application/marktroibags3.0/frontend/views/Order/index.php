@@ -2,6 +2,8 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
+use common\models\user;
+use frontend\models\Product;
 
 /* @var $this yii\web\View */
 /* @var $searchModel frontend\models\OrderSearch */
@@ -25,14 +27,18 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'user_id',
-            'product_id',
+            [
+              'attribute'=>'user_id',
+              'value'=>'user.username',
+            ],
+            [
+              'attribute'=>'product_id',
+              'value'=>'product.name',
+            ],
+            
             'promotion_id',
-            'id',
             'date',
-            // 'status',
-
-            ['class' => 'yii\grid\ActionColumn'],
+            ['class' => 'yii\grid\ActionColumn2'],
         ],
     ]); ?>
 

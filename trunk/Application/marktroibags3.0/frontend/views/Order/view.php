@@ -2,6 +2,11 @@
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
+use frontend\models\Order;
+use frontend\models\OrderSearch;
+
+use common\models\user;
+use frontend\models\Product;
 
 /* @var $this yii\web\View */
 /* @var $model frontend\models\Order */
@@ -33,7 +38,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'promotion_id',
             'id',
             'date',
-            'status',
+            
         ],
     ]) ?>
 

@@ -3,6 +3,8 @@
 namespace frontend\models;
 
 use Yii;
+use common\models\user;
+use frontend\models\Product;
 
 /**
  * This is the model class for table "order".
@@ -47,12 +49,12 @@ class Order extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'user_id' => 'User ID',
-            'product_id' => 'Product ID',
-            'promotion_id' => 'Promotion ID',
+            'user_id' => 'User',
+            'product_id' => 'Product',
+            'promotion_id' => 'Promotion',
             'id' => 'ID',
             'date' => 'Date',
-            'status' => 'Status',
+            
         ];
     }
 

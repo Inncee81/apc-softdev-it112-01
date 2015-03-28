@@ -6,6 +6,8 @@ use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 use frontend\models\Order;
+use common\models\user;
+use frontend\models\Product;
 
 /**
  * OrderSearch represents the model behind the search form about `frontend\models\Order`.
@@ -18,8 +20,8 @@ class OrderSearch extends Order
     public function rules()
     {
         return [
-            [['user_id', 'product_id', 'promotion_id', 'id'], 'integer'],
-            [['date', 'status'], 'safe'],
+            [['promotion_id', 'id'], 'integer'],
+            [['user_id','date','product_id'], 'safe'],
         ];
     }
 
@@ -62,8 +64,7 @@ class OrderSearch extends Order
             'id' => $this->id,
         ]);
 
-        $query->andFilterWhere(['like', 'date', $this->date])
-            ->andFilterWhere(['like', 'status', $this->status]);
+       
 
         return $dataProvider;
     }
