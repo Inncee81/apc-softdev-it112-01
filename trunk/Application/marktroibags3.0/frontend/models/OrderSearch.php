@@ -20,8 +20,8 @@ class OrderSearch extends Order
     public function rules()
     {
         return [
-            [['promotion_id', 'id'], 'integer'],
-            [['user_id','date','product_id'], 'safe'],
+            [['id'], 'integer'],
+            [['user_id','date','product_id','qty'], 'safe'],
         ];
     }
 
@@ -60,7 +60,7 @@ class OrderSearch extends Order
         $query->andFilterWhere([
             'user_id' => $this->user_id,
             'product_id' => $this->product_id,
-            'promotion_id' => $this->promotion_id,
+            'qty' => $this->qty,
             'id' => $this->id,
         ]);
 

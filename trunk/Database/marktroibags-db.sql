@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 28, 2015 at 10:03 AM
+-- Generation Time: Apr 01, 2015 at 03:14 PM
 -- Server version: 5.5.27
 -- PHP Version: 5.4.7
 
@@ -49,15 +49,20 @@ INSERT INTO `migration` (`version`, `apply_time`) VALUES
 CREATE TABLE IF NOT EXISTS `order` (
   `user_id` int(11) NOT NULL,
   `product_id` int(11) NOT NULL,
-  `promotion_id` int(11) NOT NULL,
-  `id` int(11) NOT NULL,
+  `qty` varchar(45) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `date` varchar(45) NOT NULL,
-  `status` varchar(45) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`),
-  KEY `product_id` (`product_id`),
-  KEY `promotion_id` (`promotion_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  KEY `product_id` (`product_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=8 ;
+
+--
+-- Dumping data for table `order`
+--
+
+INSERT INTO `order` (`user_id`, `product_id`, `qty`, `id`, `date`) VALUES
+(2, 1, '10,000', 7, '03-30-2015');
 
 -- --------------------------------------------------------
 
@@ -73,18 +78,15 @@ CREATE TABLE IF NOT EXISTS `product` (
   `logo` varchar(200) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
 --
 -- Dumping data for table `product`
 --
 
 INSERT INTO `product` (`user_id`, `id`, `name`, `description`, `logo`) VALUES
-(3, 1, 'Bag_1', 'Standard Backpack', ''),
-(3, 2, 'Bag_2', 'Sample Shoulder bag', 'uploads/Bag_2.png'),
-(3, 3, 'Thermal Bag', 'Retains cold or heat for packed items', 'uploads/Thermal Bag.png'),
-(3, 5, 'Thermal bag2', 'Happy Box', 'uploads/Thermal bag2.png'),
-(3, 6, 'Bag_7', 'Sample Bag', 'uploads/Bag_7.png');
+(2, 1, 'Bag_1', 'Standard Backpack', 'uploads/Bag_1.jpg'),
+(2, 2, 'Bag_2', 'Standard Backpack', 'uploads/Bag_2.jpg');
 
 -- --------------------------------------------------------
 
@@ -93,7 +95,7 @@ INSERT INTO `product` (`user_id`, `id`, `name`, `description`, `logo`) VALUES
 --
 
 CREATE TABLE IF NOT EXISTS `promotion` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(45) NOT NULL,
   `description` varchar(255) NOT NULL,
   `date` varchar(45) NOT NULL,
@@ -101,7 +103,14 @@ CREATE TABLE IF NOT EXISTS `promotion` (
   `user_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+--
+-- Dumping data for table `promotion`
+--
+
+INSERT INTO `promotion` (`id`, `name`, `description`, `date`, `avail`, `user_id`) VALUES
+(1, 'some promotion', 'no discount', '03-30-2015', '49,999 or less', 2);
 
 -- --------------------------------------------------------
 
@@ -110,14 +119,14 @@ CREATE TABLE IF NOT EXISTS `promotion` (
 --
 
 CREATE TABLE IF NOT EXISTS `report` (
-  `id` int(45) NOT NULL,
+  `id` int(45) NOT NULL AUTO_INCREMENT,
   `description` int(45) NOT NULL,
   `order_id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `order_id` (`order_id`),
   KEY `user_id` (`user_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
@@ -151,7 +160,6 @@ CREATE TABLE IF NOT EXISTS `user` (
 
 INSERT INTO `user` (`id`, `fname`, `lname`, `contact_no`, `username`, `company_name`, `company_description`, `shipping_address`, `auth_key`, `role`, `password_hash`, `password_reset_token`, `email`, `status`, `created_at`, `updated_at`) VALUES
 (2, 'marktroi', 'bags', '09272016877', 'marktroibags-admin', 'marktroibags', 'manufacturing', 'Alabang, Muntinlupa', 'tboWIZFl47996Fcsfy57YXwS2QoWl8j8', 0, '$2y$13$dLTfvZim.sVdfNOBV/tkcuTTH3SmXounCU4qCvhzrmXoksef1YjHG', NULL, 'marktroibags@gmail.com', 10, 1426359931, 1426359931),
-(3, 'Dan', 'Gahallon', '09272016871', 'dygahallon', 'Midara', NULL, 'Putatan, Muntinlupa City', 'zwBKyY3whva55tETwtir4sBAp4jOExhZ', 0, '$2y$13$d6hhXgXtZDPmAcTnQAVODOp7AnSRULNhHmKIdjlOfNXHY/73wmUNi', NULL, 'dygahallon@gmail.com', 10, 1426362333, 1426362333),
 (5, 'admin', 'admin', '12345', 'admin', 'APC', NULL, 'Humabon Magallanes', 'y3LLXm_G6JEYj82dUoAMomogA0rIu20m', 0, '$2y$13$KUkjhvylbwknrw8z7p6uLuE4TfgF8RDgwXFQPdaq7FTsn.vo0cH8W', NULL, 'demonstration@apc.edu.ph', 10, 1427533223, 1427533223),
 (6, 'demo', 'demo', 'demo', 'demo', 'APC', NULL, 'Humabon Magallanes', '8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY', 0, '$2y$13$KoNYWb8Nx07dLsnIHPPOKePg5E2B2AQsqMUrcuOdiqcupR88g.cPW', NULL, 'demonstration2@apc.edu.ph', 10, 1427533355, 1427533355);
 
@@ -164,8 +172,7 @@ INSERT INTO `user` (`id`, `fname`, `lname`, `contact_no`, `username`, `company_n
 --
 ALTER TABLE `order`
   ADD CONSTRAINT `order_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`),
-  ADD CONSTRAINT `order_ibfk_2` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`),
-  ADD CONSTRAINT `order_ibfk_3` FOREIGN KEY (`promotion_id`) REFERENCES `promotion` (`id`);
+  ADD CONSTRAINT `order_ibfk_2` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`);
 
 --
 -- Constraints for table `product`

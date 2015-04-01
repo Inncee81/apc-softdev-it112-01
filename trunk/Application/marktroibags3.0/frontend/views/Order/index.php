@@ -36,7 +36,7 @@ $this->params['breadcrumbs'][] = $this->title;
               'value'=>'product.name',
             ],
             
-            'promotion_id',
+            'qty',
             'date',
             ['class' => 'yii\grid\ActionColumn2'],
         ],

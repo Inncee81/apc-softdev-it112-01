@@ -37,9 +37,9 @@ class Order extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['user_id', 'product_id', 'promotion_id', 'id', 'date', 'status'], 'required'],
-            [['user_id', 'product_id', 'promotion_id', 'id'], 'integer'],
-            [['date', 'status'], 'string', 'max' => 45]
+            [['user_id', 'product_id', 'date',], 'required'],
+            [['user_id', 'product_id'], 'integer'],
+            [['date','qty'], 'string', 'max' => 45]
         ];
     }
 
@@ -51,9 +51,8 @@ class Order extends \yii\db\ActiveRecord
         return [
             'user_id' => 'User',
             'product_id' => 'Product',
-            'promotion_id' => 'Promotion',
             'id' => 'ID',
-            'date' => 'Date',
+            'date' => 'Date Order Placed',
             
         ];
     }
@@ -77,10 +76,6 @@ class Order extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getPromotion()
-    {
-        return $this->hasOne(Promotion::className(), ['id' => 'promotion_id']);
-    }
 
     /**
      * @return \yii\db\ActiveQuery
