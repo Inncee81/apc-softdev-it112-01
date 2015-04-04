@@ -14,12 +14,6 @@ use common\models\user;
 
     <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]); ?>
 
-    <?= $form->field($model, 'user_id')->dropDownlist(
-        ArrayHelper::map(user::find()->all(),'id','username'),
-        ['prompt'=>'Select user']
-     )?>   
-
-    <?= $form->field($model, 'id')->textInput() ?>
 
     <?= $form->field($model, 'name')->textInput(['maxlength' => 45]) ?>
 
