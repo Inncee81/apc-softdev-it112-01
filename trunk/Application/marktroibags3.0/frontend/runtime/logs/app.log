@@ -10892,3 +10892,666 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1427871756.429
     'REQUEST_TIME' => 1427871756
 ]
+2015-04-04 17:04:31 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ';', expecting ']'' in C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\views\layouts\main.php:46
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-04-04 17:04:30 [::1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'kf986n6aeg826b4ne0fhns4oh1'
+    '_identity' => 'e601067a79454a45d42d9a60799099a78e0ed12e3fadc34a8178dc1c8d78886as:46:\"[2,\"tboWIZFl47996Fcsfy57YXwS2QoWl8j8\",2592000]\";'
+    '_csrf' => 'a05a0a9460360233a4541a6ee49958dc1c63c6724d46f4324a17dfa430c3ffbcs:32:\"oGLxYju98EUdnIgCaMnF-mFNq-0lfkwQ\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,es;q=0.6,fil;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=kf986n6aeg826b4ne0fhns4oh1; _identity=e601067a79454a45d42d9a60799099a78e0ed12e3fadc34a8178dc1c8d78886as%3A46%3A%22%5B2%2C%22tboWIZFl47996Fcsfy57YXwS2QoWl8j8%22%2C2592000%5D%22%3B; _csrf=a05a0a9460360233a4541a6ee49958dc1c63c6724d46f4324a17dfa430c3ffbcs%3A32%3A%22oGLxYju98EUdnIgCaMnF-mFNq-0lfkwQ%22%3B'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\TortoiseGit\\bin;C:\\VXIPNP\\WinNT\\Bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/frontend/web/index.php'
+    'REMOTE_PORT' => '51020'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/marktroibags3.0/frontend/web/index.php'
+    'SCRIPT_NAME' => '/marktroibags3.0/frontend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428159869.857
+    'REQUEST_TIME' => 1428159869
+]
+2015-04-04 17:10:04 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\views\user\index.php' in C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\dygah_...', Array, Object(frontend\controllers\UserController))
+#1 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\UserController))
+#2 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\controllers\UserController.php(41): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\UserController->actionIndex()
+#4 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#7 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('user', Array)
+#8 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-04-04 17:10:04 [::1][-][-][info][application] $_GET = [
+    'r' => 'user'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a05a0a9460360233a4541a6ee49958dc1c63c6724d46f4324a17dfa430c3ffbcs:32:\"oGLxYju98EUdnIgCaMnF-mFNq-0lfkwQ\";'
+    'PHPSESSID' => '4oseillr6au8ah171fkm15lbr7'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,es;q=0.6,fil;q=0.4'
+    'HTTP_COOKIE' => '_csrf=a05a0a9460360233a4541a6ee49958dc1c63c6724d46f4324a17dfa430c3ffbcs%3A32%3A%22oGLxYju98EUdnIgCaMnF-mFNq-0lfkwQ%22%3B; PHPSESSID=4oseillr6au8ah171fkm15lbr7'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\TortoiseGit\\bin;C:\\VXIPNP\\WinNT\\Bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/frontend/web/index.php'
+    'REMOTE_PORT' => '51106'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user'
+    'REQUEST_URI' => '/marktroibags3.0/frontend/web/index.php?r=user'
+    'SCRIPT_NAME' => '/marktroibags3.0/frontend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428160204.305
+    'REQUEST_TIME' => 1428160204
+]
+2015-04-04 17:10:51 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\views\user\index.php' in C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\dygah_...', Array, Object(frontend\controllers\UserController))
+#1 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\UserController))
+#2 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\controllers\UserController.php(41): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\UserController->actionIndex()
+#4 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#7 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('user', Array)
+#8 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-04-04 17:10:51 [::1][-][-][info][application] $_GET = [
+    'r' => 'user'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a05a0a9460360233a4541a6ee49958dc1c63c6724d46f4324a17dfa430c3ffbcs:32:\"oGLxYju98EUdnIgCaMnF-mFNq-0lfkwQ\";'
+    'PHPSESSID' => '4oseillr6au8ah171fkm15lbr7'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,es;q=0.6,fil;q=0.4'
+    'HTTP_COOKIE' => '_csrf=a05a0a9460360233a4541a6ee49958dc1c63c6724d46f4324a17dfa430c3ffbcs%3A32%3A%22oGLxYju98EUdnIgCaMnF-mFNq-0lfkwQ%22%3B; PHPSESSID=4oseillr6au8ah171fkm15lbr7'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\TortoiseGit\\bin;C:\\VXIPNP\\WinNT\\Bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/frontend/web/index.php'
+    'REMOTE_PORT' => '51130'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user'
+    'REQUEST_URI' => '/marktroibags3.0/frontend/web/index.php?r=user'
+    'SCRIPT_NAME' => '/marktroibags3.0/frontend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428160251.259
+    'REQUEST_TIME' => 1428160251
+]
+2015-04-04 17:11:07 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "User".' in C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('User', Array)
+#1 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-04 17:11:07 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ';', expecting ']'' in C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\views\layouts\main.php:46
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-04-04 17:11:07 [::1][-][-][info][application] $_GET = [
+    'r' => 'User'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a05a0a9460360233a4541a6ee49958dc1c63c6724d46f4324a17dfa430c3ffbcs:32:\"oGLxYju98EUdnIgCaMnF-mFNq-0lfkwQ\";'
+    'PHPSESSID' => '4oseillr6au8ah171fkm15lbr7'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,es;q=0.6,fil;q=0.4'
+    'HTTP_COOKIE' => '_csrf=a05a0a9460360233a4541a6ee49958dc1c63c6724d46f4324a17dfa430c3ffbcs%3A32%3A%22oGLxYju98EUdnIgCaMnF-mFNq-0lfkwQ%22%3B; PHPSESSID=4oseillr6au8ah171fkm15lbr7'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\TortoiseGit\\bin;C:\\VXIPNP\\WinNT\\Bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/frontend/web/index.php'
+    'REMOTE_PORT' => '51138'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=User'
+    'REQUEST_URI' => '/marktroibags3.0/frontend/web/index.php?r=User'
+    'SCRIPT_NAME' => '/marktroibags3.0/frontend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428160267.687
+    'REQUEST_TIME' => 1428160267
+]
+2015-04-04 17:11:21 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "User".' in C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('User', Array)
+#1 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-04 17:11:21 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ';', expecting ']'' in C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\views\layouts\main.php:46
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-04-04 17:11:21 [::1][-][-][info][application] $_GET = [
+    'r' => 'User'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a05a0a9460360233a4541a6ee49958dc1c63c6724d46f4324a17dfa430c3ffbcs:32:\"oGLxYju98EUdnIgCaMnF-mFNq-0lfkwQ\";'
+    'PHPSESSID' => '4oseillr6au8ah171fkm15lbr7'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,es;q=0.6,fil;q=0.4'
+    'HTTP_COOKIE' => '_csrf=a05a0a9460360233a4541a6ee49958dc1c63c6724d46f4324a17dfa430c3ffbcs%3A32%3A%22oGLxYju98EUdnIgCaMnF-mFNq-0lfkwQ%22%3B; PHPSESSID=4oseillr6au8ah171fkm15lbr7'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\TortoiseGit\\bin;C:\\VXIPNP\\WinNT\\Bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/frontend/web/index.php'
+    'REMOTE_PORT' => '51139'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=User'
+    'REQUEST_URI' => '/marktroibags3.0/frontend/web/index.php?r=User'
+    'SCRIPT_NAME' => '/marktroibags3.0/frontend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428160281.584
+    'REQUEST_TIME' => 1428160281
+]
+2015-04-04 17:11:52 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "User".' in C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('User', Array)
+#1 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-04 17:11:52 [::1][-][-][info][application] $_GET = [
+    'r' => 'User'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a05a0a9460360233a4541a6ee49958dc1c63c6724d46f4324a17dfa430c3ffbcs:32:\"oGLxYju98EUdnIgCaMnF-mFNq-0lfkwQ\";'
+    'PHPSESSID' => '4oseillr6au8ah171fkm15lbr7'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,es;q=0.6,fil;q=0.4'
+    'HTTP_COOKIE' => '_csrf=a05a0a9460360233a4541a6ee49958dc1c63c6724d46f4324a17dfa430c3ffbcs%3A32%3A%22oGLxYju98EUdnIgCaMnF-mFNq-0lfkwQ%22%3B; PHPSESSID=4oseillr6au8ah171fkm15lbr7'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\TortoiseGit\\bin;C:\\VXIPNP\\WinNT\\Bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/frontend/web/index.php'
+    'REMOTE_PORT' => '51156'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=User'
+    'REQUEST_URI' => '/marktroibags3.0/frontend/web/index.php?r=User'
+    'SCRIPT_NAME' => '/marktroibags3.0/frontend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428160312.387
+    'REQUEST_TIME' => 1428160312
+]
+2015-04-04 17:11:58 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\views\user\index.php' in C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\dygah_...', Array, Object(frontend\controllers\UserController))
+#1 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\UserController))
+#2 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\controllers\UserController.php(41): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\UserController->actionIndex()
+#4 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#7 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('user', Array)
+#8 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-04-04 17:11:58 [::1][-][-][info][application] $_GET = [
+    'r' => 'user'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a05a0a9460360233a4541a6ee49958dc1c63c6724d46f4324a17dfa430c3ffbcs:32:\"oGLxYju98EUdnIgCaMnF-mFNq-0lfkwQ\";'
+    'PHPSESSID' => '4oseillr6au8ah171fkm15lbr7'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,es;q=0.6,fil;q=0.4'
+    'HTTP_COOKIE' => '_csrf=a05a0a9460360233a4541a6ee49958dc1c63c6724d46f4324a17dfa430c3ffbcs%3A32%3A%22oGLxYju98EUdnIgCaMnF-mFNq-0lfkwQ%22%3B; PHPSESSID=4oseillr6au8ah171fkm15lbr7'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\TortoiseGit\\bin;C:\\VXIPNP\\WinNT\\Bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/frontend/web/index.php'
+    'REMOTE_PORT' => '51160'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user'
+    'REQUEST_URI' => '/marktroibags3.0/frontend/web/index.php?r=user'
+    'SCRIPT_NAME' => '/marktroibags3.0/frontend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428160318.646
+    'REQUEST_TIME' => 1428160318
+]
+2015-04-04 17:12:07 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\views\user\index.php' in C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\dygah_...', Array, Object(frontend\controllers\UserController))
+#1 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\UserController))
+#2 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\controllers\UserController.php(41): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\UserController->actionIndex()
+#4 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('user/index', Array)
+#8 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-04-04 17:12:07 [::1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a05a0a9460360233a4541a6ee49958dc1c63c6724d46f4324a17dfa430c3ffbcs:32:\"oGLxYju98EUdnIgCaMnF-mFNq-0lfkwQ\";'
+    'PHPSESSID' => '4oseillr6au8ah171fkm15lbr7'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,es;q=0.6,fil;q=0.4'
+    'HTTP_COOKIE' => '_csrf=a05a0a9460360233a4541a6ee49958dc1c63c6724d46f4324a17dfa430c3ffbcs%3A32%3A%22oGLxYju98EUdnIgCaMnF-mFNq-0lfkwQ%22%3B; PHPSESSID=4oseillr6au8ah171fkm15lbr7'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\TortoiseGit\\bin;C:\\VXIPNP\\WinNT\\Bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/frontend/web/index.php'
+    'REMOTE_PORT' => '51163'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/marktroibags3.0/frontend/web/index.php?r=user/index'
+    'SCRIPT_NAME' => '/marktroibags3.0/frontend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428160327.654
+    'REQUEST_TIME' => 1428160327
+]
+2015-04-04 17:22:51 [::1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "marktroibags3.0/frontend/web/index.php..".' in C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('marktroibags3.0...', Array)
+#1 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-04 17:22:51 [::1][1][-][info][application] $_GET = [
+    'r' => 'marktroibags3.0/frontend/web/index.php..'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a05a0a9460360233a4541a6ee49958dc1c63c6724d46f4324a17dfa430c3ffbcs:32:\"oGLxYju98EUdnIgCaMnF-mFNq-0lfkwQ\";'
+    'PHPSESSID' => '794nl26ogo19uahq2va87jm6j3'
+    '_identity' => '99251932a9aa7a9e47cdb2c40873ba0432f2fc3da9b2652160a5f013c9ffe122s:46:\"[1,\"tboWIZFl47996Fcsfy57YXwS2QoWl8j8\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/frontend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,es;q=0.6,fil;q=0.4'
+    'HTTP_COOKIE' => '_csrf=a05a0a9460360233a4541a6ee49958dc1c63c6724d46f4324a17dfa430c3ffbcs%3A32%3A%22oGLxYju98EUdnIgCaMnF-mFNq-0lfkwQ%22%3B; PHPSESSID=794nl26ogo19uahq2va87jm6j3; _identity=99251932a9aa7a9e47cdb2c40873ba0432f2fc3da9b2652160a5f013c9ffe122s%3A46%3A%22%5B1%2C%22tboWIZFl47996Fcsfy57YXwS2QoWl8j8%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\TortoiseGit\\bin;C:\\VXIPNP\\WinNT\\Bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/frontend/web/index.php'
+    'REMOTE_PORT' => '51451'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=marktroibags3.0%2Ffrontend%2Fweb%2Findex.php..'
+    'REQUEST_URI' => '/marktroibags3.0/frontend/web/index.php?r=marktroibags3.0%2Ffrontend%2Fweb%2Findex.php..'
+    'SCRIPT_NAME' => '/marktroibags3.0/frontend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428160971.718
+    'REQUEST_TIME' => 1428160971
+]
+2015-04-04 17:25:26 [::1][6][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: user/view&id=6' in C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('view&id=6', Array)
+#1 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('user/view&id=6', Array)
+#2 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\dygah_000\Desktop\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-04 17:25:26 [::1][6][-][info][application] $_GET = [
+    'r' => 'user/view&id=6'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a05a0a9460360233a4541a6ee49958dc1c63c6724d46f4324a17dfa430c3ffbcs:32:\"oGLxYju98EUdnIgCaMnF-mFNq-0lfkwQ\";'
+    'PHPSESSID' => '99d8vhp77s701o4ricecib6sn4'
+    '_identity' => '09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs:46:\"[6,\"8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/frontend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,es;q=0.6,fil;q=0.4'
+    'HTTP_COOKIE' => '_csrf=a05a0a9460360233a4541a6ee49958dc1c63c6724d46f4324a17dfa430c3ffbcs%3A32%3A%22oGLxYju98EUdnIgCaMnF-mFNq-0lfkwQ%22%3B; PHPSESSID=99d8vhp77s701o4ricecib6sn4; _identity=09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs%3A46%3A%22%5B6%2C%228urHe0RqNuerCN2oPGM9jvpBCKRiVPjY%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\TortoiseGit\\bin;C:\\VXIPNP\\WinNT\\Bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/frontend/web/index.php'
+    'REMOTE_PORT' => '51499'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Fview%26id%3D6'
+    'REQUEST_URI' => '/marktroibags3.0/frontend/web/index.php?r=user%2Fview%26id%3D6'
+    'SCRIPT_NAME' => '/marktroibags3.0/frontend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428161126.673
+    'REQUEST_TIME' => 1428161126
+]

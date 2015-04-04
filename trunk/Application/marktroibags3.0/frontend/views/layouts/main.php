@@ -41,14 +41,22 @@ AppAsset::register($this);
                 
             ];
             if (Yii::$app->user->isGuest) {
-                $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
-                $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
-            } else {
-                $menuItems[] = [
-                    'label' => 'Logout (' . Yii::$app->user->identity->username . ')',
-                    'url' => ['/site/logout'],
-                    'linkOptions' => ['data-method' => 'post']
+                $menuItems[] = ['label' => '', 'items' => [
+                                ['label' => 'Signup', 'url' => ['/site/signup']],
+                                ['label' => 'Login', 'url' => ['/site/login']]]
                 ];
+            } else {
+                if(Yii::$app->user->identity->id == 1){
+                                 $menuItems[] = ['label' => '', 'items' => [
+                    ['label' => 'Manage', 'url' => [Yii::$app->homeUrl.'../']],                    
+                    ['label' => 'Logout (' . Yii::$app->user->identity->username . ')', 'url' => ['/site/logout'], 'linkOptions' => ['data-method' => 'post']]
+                ]];
+                } else {
+                             $menuItems[] = ['label' => '', 'items' => [
+                    ['label' => 'My Account', 'url' => ['/user/view&id='.Yii::$app->user->identity->id]],                    
+                    ['label' => 'Logout (' . Yii::$app->user->identity->username . ')', 'url' => ['/site/logout'], 'linkOptions' => ['data-method' => 'post']]
+                ]];    
+                }
             }
             echo Nav::widget([
                 'options' => ['class' => 'navbar-nav navbar-right'],
