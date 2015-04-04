@@ -14,10 +14,9 @@ use common\models\user;
 
     <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]); ?>
 
-
     <?= $form->field($model, 'name')->textInput(['maxlength' => 45]) ?>
 
-    <?= $form->field($model, 'description')->textInput(['maxlength' => 45]) ?>
+    <?= $form->field($model, 'description')->textArea() ?>
     
     <?= $form->field($model, 'file')->fileInput(); ?>
 
