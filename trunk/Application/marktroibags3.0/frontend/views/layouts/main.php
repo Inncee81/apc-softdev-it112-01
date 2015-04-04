@@ -53,7 +53,7 @@ AppAsset::register($this);
                 ]];
                 } else {
                              $menuItems[] = ['label' => '', 'items' => [
-                    ['label' => 'My Account', 'url' => ['/user/view&id='.Yii::$app->user->identity->id]],                    
+                    ['label' => 'My Account', 'url' => ['/user/view/'.Yii::$app->user->identity->id]],                    
                     ['label' => 'Logout (' . Yii::$app->user->identity->username . ')', 'url' => ['/site/logout'], 'linkOptions' => ['data-method' => 'post']]
                 ]];    
                 }
