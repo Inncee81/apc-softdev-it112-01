@@ -60,8 +60,8 @@ class User extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'fname' => 'Fname',
-            'lname' => 'Lname',
+            'fname' => 'First name',
+            'lname' => 'Last name',
             'contact_no' => 'Contact No',
             'username' => 'Username',
             'company_name' => 'Company Name',

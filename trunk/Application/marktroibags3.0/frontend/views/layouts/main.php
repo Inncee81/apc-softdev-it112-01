@@ -36,6 +36,7 @@ AppAsset::register($this);
                 ['label' => 'Home', 'url' => ['/site/index']],
                 ['label' => 'Product', 'url' => ['/product/index']],
                 ['label' => 'Order', 'url' => ['/order/create']],
+                ['label' => 'Promotion', 'url' => ['/promotion/index']],
                 ['label' => 'About', 'url' => ['/site/about']],
                 ['label' => 'Contact', 'url' => ['/site/contact']],
                 
