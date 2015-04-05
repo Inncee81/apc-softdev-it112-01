@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 01, 2015 at 03:14 PM
+-- Generation Time: Apr 05, 2015 at 02:45 PM
 -- Server version: 5.5.27
 -- PHP Version: 5.4.7
 
@@ -48,6 +48,7 @@ INSERT INTO `migration` (`version`, `apply_time`) VALUES
 
 CREATE TABLE IF NOT EXISTS `order` (
   `user_id` int(11) NOT NULL,
+  `username` varchar(45) NOT NULL,
   `product_id` int(11) NOT NULL,
   `qty` varchar(45) NOT NULL,
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -55,14 +56,7 @@ CREATE TABLE IF NOT EXISTS `order` (
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`),
   KEY `product_id` (`product_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=8 ;
-
---
--- Dumping data for table `order`
---
-
-INSERT INTO `order` (`user_id`, `product_id`, `qty`, `id`, `date`) VALUES
-(2, 1, '10,000', 7, '03-30-2015');
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=10 ;
 
 -- --------------------------------------------------------
 
@@ -72,21 +66,21 @@ INSERT INTO `order` (`user_id`, `product_id`, `qty`, `id`, `date`) VALUES
 
 CREATE TABLE IF NOT EXISTS `product` (
   `user_id` int(11) NOT NULL,
+  `username` varchar(45) NOT NULL,
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(100) NOT NULL,
   `description` varchar(200) NOT NULL,
   `logo` varchar(200) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
 
 --
 -- Dumping data for table `product`
 --
 
-INSERT INTO `product` (`user_id`, `id`, `name`, `description`, `logo`) VALUES
-(2, 1, 'Bag_1', 'Standard Backpack', 'uploads/Bag_1.jpg'),
-(2, 2, 'Bag_2', 'Standard Backpack', 'uploads/Bag_2.jpg');
+INSERT INTO `product` (`user_id`, `username`, `id`, `name`, `description`, `logo`) VALUES
+(5, 'admin', 5, 'Bag_10', 'Promotional Item', 'uploads/Bag_10.jpg');
 
 -- --------------------------------------------------------
 
@@ -104,13 +98,6 @@ CREATE TABLE IF NOT EXISTS `promotion` (
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
-
---
--- Dumping data for table `promotion`
---
-
-INSERT INTO `promotion` (`id`, `name`, `description`, `date`, `avail`, `user_id`) VALUES
-(1, 'some promotion', 'no discount', '03-30-2015', '49,999 or less', 2);
 
 -- --------------------------------------------------------
 
