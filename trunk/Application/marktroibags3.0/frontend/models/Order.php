@@ -39,7 +39,7 @@ class Order extends \yii\db\ActiveRecord
         return [
             [['user_id', 'product_id', 'date',], 'required'],
             [['user_id', 'product_id'], 'integer'],
-            [['date','qty'], 'string', 'max' => 45]
+            [['date','qty','username'], 'string', 'max' => 45]
         ];
     }
 
@@ -50,7 +50,8 @@ class Order extends \yii\db\ActiveRecord
     {
         return [
             'user_id' => 'User',
-            'product_id' => 'Product',
+            'user.username' => 'User',
+            'product.name' => 'Product',
             'id' => 'ID',
             'date' => 'Date Order Placed',
             
@@ -63,6 +64,14 @@ class Order extends \yii\db\ActiveRecord
     public function getUser()
     {
         return $this->hasOne(User::className(), ['id' => 'user_id']);
+    }
+    
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getUsername()
+    {
+        return $this->hasOne(Username::className(), ['id' => 'username']);
     }
 
     /**

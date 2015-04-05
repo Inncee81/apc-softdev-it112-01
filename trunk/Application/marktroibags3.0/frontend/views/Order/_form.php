@@ -23,7 +23,9 @@ use yii\base\Model;
     
     
      
-    <?= $form->field($model, 'user_id')->textInput(['value'=>Yii::$app->user->identity->username]) ?>  
+    <?= $form->field($model, 'user_id')->textInput(['value'=>Yii::$app->user->identity->id]) ?>  
+    
+    <?= $form->field($model, 'username')->textInput(['value'=>Yii::$app->user->identity->username]) ?>
 
     <?= $form->field($model, 'product_id')->dropDownlist(
         ArrayHelper::map(product::find()->all(),'id','name'),

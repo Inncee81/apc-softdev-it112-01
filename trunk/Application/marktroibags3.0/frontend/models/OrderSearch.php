@@ -21,7 +21,7 @@ class OrderSearch extends Order
     {
         return [
             [['id'], 'integer'],
-            [['user_id','date','product_id','qty'], 'safe'],
+            [['user_id','date','product_id','qty','username'], 'safe'],
         ];
     }
 
@@ -59,6 +59,7 @@ class OrderSearch extends Order
 
         $query->andFilterWhere([
             'user_id' => $this->user_id,
+            
             'product_id' => $this->product_id,
             'qty' => $this->qty,
             'id' => $this->id,

@@ -34,9 +34,9 @@ class Product extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['user_id', 'id', 'name', 'description'], 'required'],
+            [['user_id','name', 'description'], 'required'],
             [['user_id', 'id'], 'integer'],
-            [['name', 'description','logo'], 'string', 'max' => 200],
+            [['name', 'description','logo','username'], 'string', 'max' => 200],
             [['file'],'file']
         ];
     }
@@ -51,7 +51,7 @@ class Product extends \yii\db\ActiveRecord
             'id' => 'ID',
             'name' => 'Name',
             'description' => 'Description',
-            'file' => 'Product Img ------ Upload Images with file extension .png only'
+            'file' => 'Product Img ------ Upload Images with file extension .jpg only'
         ];
     }
 
@@ -69,5 +69,13 @@ class Product extends \yii\db\ActiveRecord
     public function getuser()
     {
         return $this->hasOne(user::className(), ['id' => 'user_id']);
+    }
+    
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getUsername()
+    {
+        return $this->hasOne(Username::className(), ['id' => 'username']);
     }
 }
