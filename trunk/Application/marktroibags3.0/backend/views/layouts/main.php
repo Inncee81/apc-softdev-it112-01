@@ -10,7 +10,7 @@ use frontend\widgets\Alert;
 /* @var $content string */
 
 AppAsset::register($this);
-?>
+?> 
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
@@ -46,11 +46,22 @@ AppAsset::register($this);
                 $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
                 $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
             } else {
-                $menuItems[] = [
-                    'label' => 'Logout (' . Yii::$app->user->identity->username . ')',
-                    'url' => ['/site/logout'],
-                    'linkOptions' => ['data-method' => 'post']
-                ];
+                 if(Yii::$app->user->identity->id == 1){
+                                 $menuItems[] = ['label' => '', 'items' => [
+                    ['label' => 'Manage', 'url' => [Yii::$app->homeUrl.'../']],                    
+                    ['label' => 'Logout (' . Yii::$app->user->identity->username . ')', 'url' => ['/site/logout'], 'linkOptions' => ['data-method' => 'post']]
+                ]];
+                } else {
+                             $menuItems[] = ['label' => '', 'items' => [
+                    ['label' => 'My Account', 'url' => ['/user/view/'.Yii::$app->user->identity->id]],                    
+                    ['label' => 'Logout (' . Yii::$app->user->identity->username . ')', 'url' => ['/site/logout'], 'linkOptions' => ['data-method' => 'post']]
+                ]];    
+                }
+                //$menuItems[] = [
+                    //'label' => 'Logout (' . Yii::$app->user->identity->username . ')',
+                   // 'url' => ['/site/logout'],
+                   // 'linkOptions' => ['data-method' => 'post']
+              //  ];
             }
             echo Nav::widget([
                 'options' => ['class' => 'navbar-nav navbar-right'],
