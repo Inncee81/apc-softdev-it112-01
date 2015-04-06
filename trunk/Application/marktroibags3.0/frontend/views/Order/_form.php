@@ -13,6 +13,8 @@ use yii\base\Model;
 /* @var $this yii\web\View */
 /* @var $model frontend\models\Order */
 /* @var $form yii\widgets\ActiveForm */
+
+
 ?>
 
 
@@ -23,7 +25,7 @@ use yii\base\Model;
     
     
      
-    <?= $form->field($model, 'user_id')->textInput(['value'=>Yii::$app->user->identity->id]) ?>  
+
     
     <?= $form->field($model, 'username')->textInput(['value'=>Yii::$app->user->identity->username]) ?>
 

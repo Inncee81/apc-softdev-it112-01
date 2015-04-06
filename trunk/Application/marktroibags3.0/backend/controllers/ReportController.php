@@ -1,10 +1,10 @@
 <?php
 
-namespace app\controllers;
+namespace backend\controllers;
 
 use Yii;
 use backend\models\Report;
-use app\models\ReportSearch;
+use backend\models\ReportSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -61,7 +61,8 @@ class ReportController extends Controller
     public function actionCreate()
     {
         $model = new Report();
-
+        
+        $model->user_id = Yii::$app->user->identity->id;
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         } else {

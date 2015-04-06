@@ -50,6 +50,7 @@ class Order extends \yii\db\ActiveRecord
     {
         return [
             'user_id' => 'User',
+            'product_id' => 'Product',
             'user.username' => 'User',
             'product.name' => 'Product',
             'id' => 'ID',

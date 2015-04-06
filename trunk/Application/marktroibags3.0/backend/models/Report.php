@@ -8,7 +8,7 @@ use Yii;
  * This is the model class for table "report".
  *
  * @property integer $id
- * @property integer $description
+ * @property string $status
  * @property integer $order_id
  * @property integer $user_id
  *
@@ -31,8 +31,9 @@ class Report extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id', 'description', 'order_id', 'user_id'], 'required'],
-            [['id', 'description', 'order_id', 'user_id'], 'integer']
+            [['status', 'order_id', 'user_id'], 'required'],
+            [['order_id', 'user_id'], 'integer'],
+            [['status'], 'string', 'max' => 200]
         ];
     }
 
@@ -43,7 +44,7 @@ class Report extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'description' => 'Description',
+            'status' => 'Status',
             'order_id' => 'Order ID',
             'user_id' => 'User ID',
         ];

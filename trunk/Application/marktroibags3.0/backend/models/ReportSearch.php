@@ -1,6 +1,6 @@
 <?php
 
-namespace app\models;
+namespace backend\models;
 
 use Yii;
 use yii\base\Model;
@@ -18,7 +18,8 @@ class ReportSearch extends Report
     public function rules()
     {
         return [
-            [['id', 'description', 'order_id', 'user_id'], 'integer'],
+            [['id', 'order_id', 'user_id'], 'integer'],
+            [['status', 'username'], 'safe'],
         ];
     }
 
@@ -56,10 +57,12 @@ class ReportSearch extends Report
 
         $query->andFilterWhere([
             'id' => $this->id,
-            'description' => $this->description,
             'order_id' => $this->order_id,
             'user_id' => $this->user_id,
         ]);
+
+        $query->andFilterWhere(['like', 'status', $this->status])
+            ->andFilterWhere(['like', 'username', $this->username]);
 
         return $dataProvider;
     }

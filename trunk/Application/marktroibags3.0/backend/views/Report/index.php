@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel app\models\ReportSearch */
+/* @var $searchModel backend\models\ReportSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Reports';
@@ -26,9 +26,10 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 
             'id',
-            'description',
+            'status',
             'order_id',
             'user_id',
+            'username',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
