@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 06, 2015 at 10:27 AM
+-- Generation Time: Apr 06, 2015 at 10:35 AM
 -- Server version: 5.6.21
 -- PHP Version: 5.6.3
 
@@ -52,7 +52,14 @@ CREATE TABLE IF NOT EXISTS `order` (
   `qty` varchar(45) NOT NULL,
 `id` int(11) NOT NULL,
   `date` varchar(45) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `order`
+--
+
+INSERT INTO `order` (`user_id`, `username`, `product_id`, `qty`, `id`, `date`) VALUES
+(1, 'marktroibags-admin', 6, '11', 10, '120815');
 
 -- --------------------------------------------------------
 
@@ -80,10 +87,7 @@ INSERT INTO `product` (`user_id`, `username`, `id`, `name`, `description`, `logo
 (1, 'marktroibags-admin', 9, 'Laptop', 'Backpacks, messenger bags, briefcases, and top loaders are the four main kinds of laptop bags. ', 'uploads/Laptop.jpg'),
 (1, 'marktroibags-admin', 10, 'Purse', 'A usually closable bag used for carrying keys, a wallet, and other personal items, especially by women; a handbag.', 'uploads/Purse.jpg'),
 (1, 'marktroibags-admin', 11, 'Shoulder Bag', 'A handbag carried by a strap that is looped over the shoulder.', 'uploads/Shoulder Bag.jpg'),
-(1, 'marktroibags-admin', 12, 'Sports/Travelling', 'A large cylindrical bag made of cloth or other fabric with a drawstring closure at the top. It is often used to carry luggage or sports equipment by people who travel in the outdoors.', ''),
-(1, 'marktroibags-admin', 13, 'Sports/Travelling', 'A large cylindrical bag made of cloth or other fabric with a drawstring closure at the top. It is often used to carry luggage or sports equipment by people who travel in the outdoors.', ''),
-(1, 'marktroibags-admin', 14, 'Sports/Travelling', 'A large cylindrical bag made of cloth or other fabric with a drawstring closure at the top. It is often used to carry luggage or sports equipment by people who travel in the outdoors.', ''),
-(1, 'marktroibags-admin', 15, 'Sports/Travelling', 'A large cylindrical bag made of cloth or other fabric with a drawstring closure at the top. It is often used to carry luggage or sports equipment by people who travel in the outdoors.', '');
+(1, 'marktroibags-admin', 12, 'Sports/Travelling', 'A large cylindrical bag made of cloth or other fabric with a drawstring closure at the top. It is often used to carry luggage or sports equipment by people who travel in the outdoors.', '');
 
 -- --------------------------------------------------------
 
@@ -195,7 +199,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `order`
 --
 ALTER TABLE `order`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=10;
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=11;
 --
 -- AUTO_INCREMENT for table `product`
 --
