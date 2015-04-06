@@ -19,7 +19,7 @@ use common\models\user;
 
     <?= $form->field($model, 'name')->textInput(['maxlength' => 45]) ?>
 
-    <?= $form->field($model, 'description')->textInput(['maxlength' => 45]) ?>
+    <?= $form->field($model, 'description')->textArea() ?>
     
     <?= $form->field($model, 'file')->fileInput(); ?>
 
