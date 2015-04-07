@@ -16498,3 +16498,1592 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1428371391.734
     'REQUEST_TIME' => 1428371391
 ]
+2015-04-07 07:43:39 [::1][6][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/css/pics/recyclable.jpg".' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/css/pics/r...', Array)
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-07 07:43:39 [::1][6][-][info][application] $_COOKIE = [
+    '_csrf' => '347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s:32:\"TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL\";'
+    'PHPSESSID' => '18mi3j3k6e9a9tbj1durg03fn5'
+    '_identity' => '09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs:46:\"[6,\"8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/csproj/frontend/web/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s%3A32%3A%22TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL%22%3B; PHPSESSID=18mi3j3k6e9a9tbj1durg03fn5; _identity=09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs%3A46%3A%22%5B6%2C%228urHe0RqNuerCN2oPGM9jvpBCKRiVPjY%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\TortoiseGit\\bin;;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/csproj/frontend/web/index.php'
+    'REMOTE_PORT' => '53259'
+    'REDIRECT_URL' => '/csproj/frontend/web/site/css/pics/recyclable.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/csproj/frontend/web/site/css/pics/recyclable.jpg'
+    'SCRIPT_NAME' => '/csproj/frontend/web/index.php'
+    'PHP_SELF' => '/csproj/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428385419.214
+    'REQUEST_TIME' => 1428385419
+]
+2015-04-07 07:43:39 [::1][6][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/css/pics/Backpack.png".' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/css/pics/B...', Array)
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-07 07:43:39 [::1][6][-][info][application] $_COOKIE = [
+    '_csrf' => '347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s:32:\"TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL\";'
+    'PHPSESSID' => '18mi3j3k6e9a9tbj1durg03fn5'
+    '_identity' => '09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs:46:\"[6,\"8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/csproj/frontend/web/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s%3A32%3A%22TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL%22%3B; PHPSESSID=18mi3j3k6e9a9tbj1durg03fn5; _identity=09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs%3A46%3A%22%5B6%2C%228urHe0RqNuerCN2oPGM9jvpBCKRiVPjY%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\TortoiseGit\\bin;;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/csproj/frontend/web/index.php'
+    'REMOTE_PORT' => '53261'
+    'REDIRECT_URL' => '/csproj/frontend/web/site/css/pics/Backpack.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/csproj/frontend/web/site/css/pics/Backpack.png'
+    'SCRIPT_NAME' => '/csproj/frontend/web/index.php'
+    'PHP_SELF' => '/csproj/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428385419.213
+    'REQUEST_TIME' => 1428385419
+]
+2015-04-07 07:43:39 [::1][6][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/css/pics/Pic_home.png".' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/css/pics/P...', Array)
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-07 07:43:39 [::1][6][-][info][application] $_COOKIE = [
+    '_csrf' => '347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s:32:\"TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL\";'
+    'PHPSESSID' => '18mi3j3k6e9a9tbj1durg03fn5'
+    '_identity' => '09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs:46:\"[6,\"8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/csproj/frontend/web/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s%3A32%3A%22TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL%22%3B; PHPSESSID=18mi3j3k6e9a9tbj1durg03fn5; _identity=09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs%3A46%3A%22%5B6%2C%228urHe0RqNuerCN2oPGM9jvpBCKRiVPjY%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\TortoiseGit\\bin;;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/csproj/frontend/web/index.php'
+    'REMOTE_PORT' => '53262'
+    'REDIRECT_URL' => '/csproj/frontend/web/site/css/pics/Pic_home.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/csproj/frontend/web/site/css/pics/Pic_home.png'
+    'SCRIPT_NAME' => '/csproj/frontend/web/index.php'
+    'PHP_SELF' => '/csproj/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428385419.208
+    'REQUEST_TIME' => 1428385419
+]
+2015-04-07 07:43:39 [::1][6][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/css/pics/eco_bag.png".' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/css/pics/e...', Array)
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-07 07:43:39 [::1][6][-][info][application] $_COOKIE = [
+    '_csrf' => '347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s:32:\"TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL\";'
+    'PHPSESSID' => '18mi3j3k6e9a9tbj1durg03fn5'
+    '_identity' => '09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs:46:\"[6,\"8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/csproj/frontend/web/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s%3A32%3A%22TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL%22%3B; PHPSESSID=18mi3j3k6e9a9tbj1durg03fn5; _identity=09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs%3A46%3A%22%5B6%2C%228urHe0RqNuerCN2oPGM9jvpBCKRiVPjY%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\TortoiseGit\\bin;;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/csproj/frontend/web/index.php'
+    'REMOTE_PORT' => '53263'
+    'REDIRECT_URL' => '/csproj/frontend/web/site/css/pics/eco_bag.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/csproj/frontend/web/site/css/pics/eco_bag.png'
+    'SCRIPT_NAME' => '/csproj/frontend/web/index.php'
+    'PHP_SELF' => '/csproj/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428385419.23
+    'REQUEST_TIME' => 1428385419
+]
+2015-04-07 07:43:47 [::1][6][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/css/pics/Pic_home.png".' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/css/pics/P...', Array)
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-07 07:43:47 [::1][6][-][info][application] $_COOKIE = [
+    '_csrf' => '347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s:32:\"TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL\";'
+    'PHPSESSID' => '18mi3j3k6e9a9tbj1durg03fn5'
+    '_identity' => '09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs:46:\"[6,\"8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/csproj/frontend/web/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s%3A32%3A%22TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL%22%3B; PHPSESSID=18mi3j3k6e9a9tbj1durg03fn5; _identity=09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs%3A46%3A%22%5B6%2C%228urHe0RqNuerCN2oPGM9jvpBCKRiVPjY%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\TortoiseGit\\bin;;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/csproj/frontend/web/index.php'
+    'REMOTE_PORT' => '53263'
+    'REDIRECT_URL' => '/csproj/frontend/web/site/css/pics/Pic_home.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/csproj/frontend/web/site/css/pics/Pic_home.png'
+    'SCRIPT_NAME' => '/csproj/frontend/web/index.php'
+    'PHP_SELF' => '/csproj/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428385427.051
+    'REQUEST_TIME' => 1428385427
+]
+2015-04-07 07:43:47 [::1][6][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/css/pics/recyclable.jpg".' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/css/pics/r...', Array)
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-07 07:43:47 [::1][6][-][info][application] $_COOKIE = [
+    '_csrf' => '347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s:32:\"TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL\";'
+    'PHPSESSID' => '18mi3j3k6e9a9tbj1durg03fn5'
+    '_identity' => '09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs:46:\"[6,\"8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/csproj/frontend/web/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s%3A32%3A%22TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL%22%3B; PHPSESSID=18mi3j3k6e9a9tbj1durg03fn5; _identity=09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs%3A46%3A%22%5B6%2C%228urHe0RqNuerCN2oPGM9jvpBCKRiVPjY%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\TortoiseGit\\bin;;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/csproj/frontend/web/index.php'
+    'REMOTE_PORT' => '53275'
+    'REDIRECT_URL' => '/csproj/frontend/web/site/css/pics/recyclable.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/csproj/frontend/web/site/css/pics/recyclable.jpg'
+    'SCRIPT_NAME' => '/csproj/frontend/web/index.php'
+    'PHP_SELF' => '/csproj/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428385427.056
+    'REQUEST_TIME' => 1428385427
+]
+2015-04-07 07:43:47 [::1][6][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/css/pics/Backpack.png".' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/css/pics/B...', Array)
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-07 07:43:47 [::1][6][-][info][application] $_COOKIE = [
+    '_csrf' => '347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s:32:\"TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL\";'
+    'PHPSESSID' => '18mi3j3k6e9a9tbj1durg03fn5'
+    '_identity' => '09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs:46:\"[6,\"8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/csproj/frontend/web/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s%3A32%3A%22TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL%22%3B; PHPSESSID=18mi3j3k6e9a9tbj1durg03fn5; _identity=09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs%3A46%3A%22%5B6%2C%228urHe0RqNuerCN2oPGM9jvpBCKRiVPjY%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\TortoiseGit\\bin;;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/csproj/frontend/web/index.php'
+    'REMOTE_PORT' => '53274'
+    'REDIRECT_URL' => '/csproj/frontend/web/site/css/pics/Backpack.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/csproj/frontend/web/site/css/pics/Backpack.png'
+    'SCRIPT_NAME' => '/csproj/frontend/web/index.php'
+    'PHP_SELF' => '/csproj/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428385427.055
+    'REQUEST_TIME' => 1428385427
+]
+2015-04-07 07:43:47 [::1][6][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/css/pics/eco_bag.png".' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/css/pics/e...', Array)
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-07 07:43:47 [::1][6][-][info][application] $_COOKIE = [
+    '_csrf' => '347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s:32:\"TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL\";'
+    'PHPSESSID' => '18mi3j3k6e9a9tbj1durg03fn5'
+    '_identity' => '09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs:46:\"[6,\"8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/csproj/frontend/web/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s%3A32%3A%22TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL%22%3B; PHPSESSID=18mi3j3k6e9a9tbj1durg03fn5; _identity=09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs%3A46%3A%22%5B6%2C%228urHe0RqNuerCN2oPGM9jvpBCKRiVPjY%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\TortoiseGit\\bin;;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/csproj/frontend/web/index.php'
+    'REMOTE_PORT' => '53277'
+    'REDIRECT_URL' => '/csproj/frontend/web/site/css/pics/eco_bag.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/csproj/frontend/web/site/css/pics/eco_bag.png'
+    'SCRIPT_NAME' => '/csproj/frontend/web/index.php'
+    'PHP_SELF' => '/csproj/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428385427.056
+    'REQUEST_TIME' => 1428385427
+]
+2015-04-07 07:43:52 [::1][6][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/css/pics/Pic_home.png".' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/css/pics/P...', Array)
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-07 07:43:52 [::1][6][-][info][application] $_COOKIE = [
+    '_csrf' => '347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s:32:\"TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL\";'
+    'PHPSESSID' => '18mi3j3k6e9a9tbj1durg03fn5'
+    '_identity' => '09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs:46:\"[6,\"8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/csproj/frontend/web/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s%3A32%3A%22TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL%22%3B; PHPSESSID=18mi3j3k6e9a9tbj1durg03fn5; _identity=09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs%3A46%3A%22%5B6%2C%228urHe0RqNuerCN2oPGM9jvpBCKRiVPjY%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\TortoiseGit\\bin;;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/csproj/frontend/web/index.php'
+    'REMOTE_PORT' => '53263'
+    'REDIRECT_URL' => '/csproj/frontend/web/site/css/pics/Pic_home.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/csproj/frontend/web/site/css/pics/Pic_home.png'
+    'SCRIPT_NAME' => '/csproj/frontend/web/index.php'
+    'PHP_SELF' => '/csproj/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428385432.837
+    'REQUEST_TIME' => 1428385432
+]
+2015-04-07 07:43:52 [::1][6][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/css/pics/Backpack.png".' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/css/pics/B...', Array)
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-07 07:43:52 [::1][6][-][info][application] $_COOKIE = [
+    '_csrf' => '347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s:32:\"TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL\";'
+    'PHPSESSID' => '18mi3j3k6e9a9tbj1durg03fn5'
+    '_identity' => '09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs:46:\"[6,\"8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/csproj/frontend/web/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s%3A32%3A%22TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL%22%3B; PHPSESSID=18mi3j3k6e9a9tbj1durg03fn5; _identity=09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs%3A46%3A%22%5B6%2C%228urHe0RqNuerCN2oPGM9jvpBCKRiVPjY%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\TortoiseGit\\bin;;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/csproj/frontend/web/index.php'
+    'REMOTE_PORT' => '53276'
+    'REDIRECT_URL' => '/csproj/frontend/web/site/css/pics/Backpack.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/csproj/frontend/web/site/css/pics/Backpack.png'
+    'SCRIPT_NAME' => '/csproj/frontend/web/index.php'
+    'PHP_SELF' => '/csproj/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428385432.839
+    'REQUEST_TIME' => 1428385432
+]
+2015-04-07 07:43:52 [::1][6][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/css/pics/eco_bag.png".' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/css/pics/e...', Array)
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-07 07:43:52 [::1][6][-][info][application] $_COOKIE = [
+    '_csrf' => '347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s:32:\"TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL\";'
+    'PHPSESSID' => '18mi3j3k6e9a9tbj1durg03fn5'
+    '_identity' => '09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs:46:\"[6,\"8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/csproj/frontend/web/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s%3A32%3A%22TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL%22%3B; PHPSESSID=18mi3j3k6e9a9tbj1durg03fn5; _identity=09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs%3A46%3A%22%5B6%2C%228urHe0RqNuerCN2oPGM9jvpBCKRiVPjY%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\TortoiseGit\\bin;;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/csproj/frontend/web/index.php'
+    'REMOTE_PORT' => '53274'
+    'REDIRECT_URL' => '/csproj/frontend/web/site/css/pics/eco_bag.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/csproj/frontend/web/site/css/pics/eco_bag.png'
+    'SCRIPT_NAME' => '/csproj/frontend/web/index.php'
+    'PHP_SELF' => '/csproj/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428385432.84
+    'REQUEST_TIME' => 1428385432
+]
+2015-04-07 07:43:52 [::1][6][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/css/pics/recyclable.jpg".' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/css/pics/r...', Array)
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-07 07:43:52 [::1][6][-][info][application] $_COOKIE = [
+    '_csrf' => '347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s:32:\"TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL\";'
+    'PHPSESSID' => '18mi3j3k6e9a9tbj1durg03fn5'
+    '_identity' => '09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs:46:\"[6,\"8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/csproj/frontend/web/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s%3A32%3A%22TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL%22%3B; PHPSESSID=18mi3j3k6e9a9tbj1durg03fn5; _identity=09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs%3A46%3A%22%5B6%2C%228urHe0RqNuerCN2oPGM9jvpBCKRiVPjY%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\TortoiseGit\\bin;;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/csproj/frontend/web/index.php'
+    'REMOTE_PORT' => '53277'
+    'REDIRECT_URL' => '/csproj/frontend/web/site/css/pics/recyclable.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/csproj/frontend/web/site/css/pics/recyclable.jpg'
+    'SCRIPT_NAME' => '/csproj/frontend/web/index.php'
+    'PHP_SELF' => '/csproj/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428385432.84
+    'REQUEST_TIME' => 1428385432
+]
+2015-04-07 07:44:03 [::1][6][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/css/pics/recyclable.jpg".' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/css/pics/r...', Array)
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-07 07:44:03 [::1][6][-][info][application] $_COOKIE = [
+    '_csrf' => '347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s:32:\"TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL\";'
+    'PHPSESSID' => '18mi3j3k6e9a9tbj1durg03fn5'
+    '_identity' => '09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs:46:\"[6,\"8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/csproj/frontend/web/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s%3A32%3A%22TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL%22%3B; PHPSESSID=18mi3j3k6e9a9tbj1durg03fn5; _identity=09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs%3A46%3A%22%5B6%2C%228urHe0RqNuerCN2oPGM9jvpBCKRiVPjY%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\TortoiseGit\\bin;;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/csproj/frontend/web/index.php'
+    'REMOTE_PORT' => '53292'
+    'REDIRECT_URL' => '/csproj/frontend/web/site/css/pics/recyclable.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/csproj/frontend/web/site/css/pics/recyclable.jpg'
+    'SCRIPT_NAME' => '/csproj/frontend/web/index.php'
+    'PHP_SELF' => '/csproj/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428385443.504
+    'REQUEST_TIME' => 1428385443
+]
+2015-04-07 07:44:03 [::1][6][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/css/pics/Pic_home.png".' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/css/pics/P...', Array)
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-07 07:44:03 [::1][6][-][info][application] $_COOKIE = [
+    '_csrf' => '347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s:32:\"TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL\";'
+    'PHPSESSID' => '18mi3j3k6e9a9tbj1durg03fn5'
+    '_identity' => '09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs:46:\"[6,\"8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/csproj/frontend/web/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s%3A32%3A%22TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL%22%3B; PHPSESSID=18mi3j3k6e9a9tbj1durg03fn5; _identity=09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs%3A46%3A%22%5B6%2C%228urHe0RqNuerCN2oPGM9jvpBCKRiVPjY%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\TortoiseGit\\bin;;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/csproj/frontend/web/index.php'
+    'REMOTE_PORT' => '53293'
+    'REDIRECT_URL' => '/csproj/frontend/web/site/css/pics/Pic_home.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/csproj/frontend/web/site/css/pics/Pic_home.png'
+    'SCRIPT_NAME' => '/csproj/frontend/web/index.php'
+    'PHP_SELF' => '/csproj/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428385443.501
+    'REQUEST_TIME' => 1428385443
+]
+2015-04-07 07:44:03 [::1][6][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/css/pics/Backpack.png".' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/css/pics/B...', Array)
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-07 07:44:03 [::1][6][-][info][application] $_COOKIE = [
+    '_csrf' => '347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s:32:\"TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL\";'
+    'PHPSESSID' => '18mi3j3k6e9a9tbj1durg03fn5'
+    '_identity' => '09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs:46:\"[6,\"8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/csproj/frontend/web/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s%3A32%3A%22TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL%22%3B; PHPSESSID=18mi3j3k6e9a9tbj1durg03fn5; _identity=09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs%3A46%3A%22%5B6%2C%228urHe0RqNuerCN2oPGM9jvpBCKRiVPjY%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\TortoiseGit\\bin;;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/csproj/frontend/web/index.php'
+    'REMOTE_PORT' => '53289'
+    'REDIRECT_URL' => '/csproj/frontend/web/site/css/pics/Backpack.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/csproj/frontend/web/site/css/pics/Backpack.png'
+    'SCRIPT_NAME' => '/csproj/frontend/web/index.php'
+    'PHP_SELF' => '/csproj/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428385443.504
+    'REQUEST_TIME' => 1428385443
+]
+2015-04-07 07:44:03 [::1][6][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/css/pics/eco_bag.png".' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/css/pics/e...', Array)
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-07 07:44:03 [::1][6][-][info][application] $_COOKIE = [
+    '_csrf' => '347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s:32:\"TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL\";'
+    'PHPSESSID' => '18mi3j3k6e9a9tbj1durg03fn5'
+    '_identity' => '09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs:46:\"[6,\"8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/csproj/frontend/web/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s%3A32%3A%22TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL%22%3B; PHPSESSID=18mi3j3k6e9a9tbj1durg03fn5; _identity=09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs%3A46%3A%22%5B6%2C%228urHe0RqNuerCN2oPGM9jvpBCKRiVPjY%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\TortoiseGit\\bin;;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/csproj/frontend/web/index.php'
+    'REMOTE_PORT' => '53291'
+    'REDIRECT_URL' => '/csproj/frontend/web/site/css/pics/eco_bag.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/csproj/frontend/web/site/css/pics/eco_bag.png'
+    'SCRIPT_NAME' => '/csproj/frontend/web/index.php'
+    'PHP_SELF' => '/csproj/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428385443.505
+    'REQUEST_TIME' => 1428385443
+]
+2015-04-07 07:44:52 [::1][6][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Uninitialized string offset: 0' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2-bootstrap\Nav.php:237
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2-bootstrap\Nav.php(237): yii\base\ErrorHandler->handleError(8, 'Uninitialized s...', 'C:\\Users\\Franci...', 237, Array)
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2-bootstrap\Nav.php(163): yii\bootstrap\Nav->isItemActive(Array)
+#2 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2-bootstrap\Nav.php(133): yii\bootstrap\Nav->renderItem(Array)
+#3 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2-bootstrap\Nav.php(118): yii\bootstrap\Nav->renderItems()
+#4 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Widget.php(96): yii\bootstrap\Nav->run()
+#5 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\views\layouts\main.php(65): yii\base\Widget::widget(Array)
+#6 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\Franci...')
+#7 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\Franci...', Array)
+#8 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\View->renderFile('C:\\Users\\Franci...', Array, Object(frontend\controllers\SiteController))
+#9 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php(368): yii\base\Controller->renderContent('<div class="sit...')
+#10 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\controllers\SiteController.php(79): yii\base\Controller->render('index')
+#11 [internal function]: frontend\controllers\SiteController->actionIndex()
+#12 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#15 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/index', Array)
+#16 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+2015-04-07 07:44:52 [::1][6][-][info][application] $_COOKIE = [
+    '_csrf' => '347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s:32:\"TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL\";'
+    'PHPSESSID' => '18mi3j3k6e9a9tbj1durg03fn5'
+    '_identity' => '09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs:46:\"[6,\"8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/csproj/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s%3A32%3A%22TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL%22%3B; PHPSESSID=18mi3j3k6e9a9tbj1durg03fn5; _identity=09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs%3A46%3A%22%5B6%2C%228urHe0RqNuerCN2oPGM9jvpBCKRiVPjY%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\TortoiseGit\\bin;;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/csproj/frontend/web/index.php'
+    'REMOTE_PORT' => '53300'
+    'REDIRECT_URL' => '/csproj/frontend/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/csproj/frontend/web/site/index'
+    'SCRIPT_NAME' => '/csproj/frontend/web/index.php'
+    'PHP_SELF' => '/csproj/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428385492.005
+    'REQUEST_TIME' => 1428385492
+]
+2015-04-07 07:45:18 [::1][6][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/css/pics/Pic_home.png".' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/css/pics/P...', Array)
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-07 07:45:18 [::1][6][-][info][application] $_COOKIE = [
+    '_csrf' => '347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s:32:\"TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL\";'
+    'PHPSESSID' => '18mi3j3k6e9a9tbj1durg03fn5'
+    '_identity' => '09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs:46:\"[6,\"8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/csproj/frontend/web/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s%3A32%3A%22TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL%22%3B; PHPSESSID=18mi3j3k6e9a9tbj1durg03fn5; _identity=09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs%3A46%3A%22%5B6%2C%228urHe0RqNuerCN2oPGM9jvpBCKRiVPjY%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\TortoiseGit\\bin;;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/csproj/frontend/web/index.php'
+    'REMOTE_PORT' => '53308'
+    'REDIRECT_URL' => '/csproj/frontend/web/site/css/pics/Pic_home.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/csproj/frontend/web/site/css/pics/Pic_home.png'
+    'SCRIPT_NAME' => '/csproj/frontend/web/index.php'
+    'PHP_SELF' => '/csproj/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428385518.285
+    'REQUEST_TIME' => 1428385518
+]
+2015-04-07 07:45:18 [::1][6][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/css/pics/Backpack.png".' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/css/pics/B...', Array)
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-07 07:45:18 [::1][6][-][info][application] $_COOKIE = [
+    '_csrf' => '347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s:32:\"TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL\";'
+    'PHPSESSID' => '18mi3j3k6e9a9tbj1durg03fn5'
+    '_identity' => '09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs:46:\"[6,\"8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/csproj/frontend/web/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s%3A32%3A%22TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL%22%3B; PHPSESSID=18mi3j3k6e9a9tbj1durg03fn5; _identity=09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs%3A46%3A%22%5B6%2C%228urHe0RqNuerCN2oPGM9jvpBCKRiVPjY%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\TortoiseGit\\bin;;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/csproj/frontend/web/index.php'
+    'REMOTE_PORT' => '53305'
+    'REDIRECT_URL' => '/csproj/frontend/web/site/css/pics/Backpack.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/csproj/frontend/web/site/css/pics/Backpack.png'
+    'SCRIPT_NAME' => '/csproj/frontend/web/index.php'
+    'PHP_SELF' => '/csproj/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428385518.292
+    'REQUEST_TIME' => 1428385518
+]
+2015-04-07 07:45:18 [::1][6][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/css/pics/eco_bag.png".' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/css/pics/e...', Array)
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-07 07:45:18 [::1][6][-][info][application] $_COOKIE = [
+    '_csrf' => '347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s:32:\"TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL\";'
+    'PHPSESSID' => '18mi3j3k6e9a9tbj1durg03fn5'
+    '_identity' => '09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs:46:\"[6,\"8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/csproj/frontend/web/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s%3A32%3A%22TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL%22%3B; PHPSESSID=18mi3j3k6e9a9tbj1durg03fn5; _identity=09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs%3A46%3A%22%5B6%2C%228urHe0RqNuerCN2oPGM9jvpBCKRiVPjY%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\TortoiseGit\\bin;;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/csproj/frontend/web/index.php'
+    'REMOTE_PORT' => '53304'
+    'REDIRECT_URL' => '/csproj/frontend/web/site/css/pics/eco_bag.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/csproj/frontend/web/site/css/pics/eco_bag.png'
+    'SCRIPT_NAME' => '/csproj/frontend/web/index.php'
+    'PHP_SELF' => '/csproj/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428385518.292
+    'REQUEST_TIME' => 1428385518
+]
+2015-04-07 07:45:18 [::1][6][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/css/pics/recyclable.jpg".' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/css/pics/r...', Array)
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Francis\Desktop\CSPROJ\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-07 07:45:18 [::1][6][-][info][application] $_COOKIE = [
+    '_csrf' => '347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s:32:\"TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL\";'
+    'PHPSESSID' => '18mi3j3k6e9a9tbj1durg03fn5'
+    '_identity' => '09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs:46:\"[6,\"8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/csproj/frontend/web/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=347acdb5a3c71e550a9037a244a8165dc0843b236b6a2c164277c9e51f60a8e4s%3A32%3A%22TOYlDhnWSYB_H7WVu3eQz50os9maI1ZL%22%3B; PHPSESSID=18mi3j3k6e9a9tbj1durg03fn5; _identity=09d97afdbe75db139b8d1efd3ff536b5d1eeae367fee4341f9c5adf3816fa0dbs%3A46%3A%22%5B6%2C%228urHe0RqNuerCN2oPGM9jvpBCKRiVPjY%22%2C2592000%5D%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\TortoiseGit\\bin;;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/csproj/frontend/web/index.php'
+    'REMOTE_PORT' => '53306'
+    'REDIRECT_URL' => '/csproj/frontend/web/site/css/pics/recyclable.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/csproj/frontend/web/site/css/pics/recyclable.jpg'
+    'SCRIPT_NAME' => '/csproj/frontend/web/index.php'
+    'PHP_SELF' => '/csproj/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1428385518.292
+    'REQUEST_TIME' => 1428385518
+]
