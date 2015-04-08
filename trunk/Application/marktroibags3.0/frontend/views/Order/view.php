@@ -37,7 +37,9 @@ $this->params['breadcrumbs'][] = $this->title;
             'product_id'=>'product.name',
             'qty',
             'id',
+            'shippingaddress',
             'date',
+           
             
         ],
     ]) ?>

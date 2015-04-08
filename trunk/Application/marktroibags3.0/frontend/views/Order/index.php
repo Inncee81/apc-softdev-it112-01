@@ -38,6 +38,7 @@ $this->params['breadcrumbs'][] = $this->title;
             
             'qty',
             'date',
+            'shippingaddress',
             ['class' => 'yii\grid\ActionColumn2'],
         ],
     ]); ?>

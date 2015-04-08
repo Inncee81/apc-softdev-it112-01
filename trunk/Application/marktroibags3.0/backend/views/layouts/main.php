@@ -37,11 +37,13 @@ AppAsset::register($this);
                 ['label' => 'Product', 'url' => ['/product/index']],
                 ['label' => 'Promotion', 'url' => ['/promotion/index']],
                 ['label' => 'Report', 'url' => ['/report/index']],
-                ['label' => 'User List', 'url' => ['/user']],
+                ['label' => 'About', 'url' => ['/site/about']],
+                ['label' => 'Contact', 'url' => ['/site/contact']],
                 
                 
             ];
             if (Yii::$app->user->isGuest) {
+                $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
                 $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
             } else {
                  if(Yii::$app->user->identity->id == 1){

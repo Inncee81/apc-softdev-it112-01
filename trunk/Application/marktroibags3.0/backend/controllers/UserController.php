@@ -8,7 +8,6 @@ use backend\models\UserSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use yii\filters\AccessControl;
 
 /**
  * UserController implements the CRUD actions for User model.
@@ -18,34 +17,9 @@ class UserController extends Controller
     public function behaviors()
     {
         return [
-       'access' => [
-           'class' => AccessControl::className(),
-           'only' => ['logout', 'signup', 'about'],
-           'rules' => [
-               [
-                   'actions' => ['signup'],
-                   'allow' => true,
-                   'roles' => ['?'],
-               ],
-               [
-                   'actions' => ['logout'],
-                   'allow' => true,
-                   'roles' => ['@'],
-               ],
-               [
-                   'actions' => ['about'],
-                   'allow' => true,
-                   'roles' => ['@'],
-                   'matchCallback' => function ($rule, $action) {
-                       return User::isUserAdmin(Yii::$app->user->identity->username);
-                   }
-               ],
-           ],
-       ],
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
-					'logout' => ['post'],
                     'delete' => ['post'],
                 ],
             ],
@@ -144,43 +118,4 @@ class UserController extends Controller
             throw new NotFoundHttpException('The requested page does not exist.');
         }
     }
-	
-	
-	
-	
-	
-public function actionLogin()
-    {
-		if (!\Yii::$app->user->isGuest) {
-		return $this->goHome();
-   }
- 
-   $model = new LoginForm();
-   if ($model->load(Yii::$app->request->post()) && $model->loginAdmin()) {
-      return $this->goBack();
-   } else {
-       return $this->render('login', [
-          'model' => $model,
-       ]);
-   }
-}
-
-    public function actionLogout()
-    {
-        Yii::$app->user->logout();
-
-        return $this->goHome();
-    }			
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }

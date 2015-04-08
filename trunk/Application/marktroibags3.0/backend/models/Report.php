@@ -33,7 +33,7 @@ class Report extends \yii\db\ActiveRecord
         return [
             [['status', 'order_id', 'user_id'], 'required'],
             [['order_id', 'user_id'], 'integer'],
-            [['status'], 'string', 'max' => 200]
+            [['status','username'], 'string', 'max' => 200]
         ];
     }
 
@@ -47,6 +47,7 @@ class Report extends \yii\db\ActiveRecord
             'status' => 'Status',
             'order_id' => 'Order ID',
             'user_id' => 'User ID',
+            'order.product.name' => 'Product Name'
         ];
     }
 
@@ -65,4 +66,6 @@ class Report extends \yii\db\ActiveRecord
     {
         return $this->hasOne(User::className(), ['id' => 'user_id']);
     }
+    
+    
 }

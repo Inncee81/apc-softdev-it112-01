@@ -21,7 +21,7 @@ class OrderSearch extends Order
     {
         return [
             [['id'], 'integer'],
-            [['user_id','date','product_id','qty','username'], 'safe'],
+            [['user_id','date','product_id','qty','username','shippingaddress'], 'safe'],
         ];
     }
 
@@ -63,6 +63,7 @@ class OrderSearch extends Order
             'product_id' => $this->product_id,
             'qty' => $this->qty,
             'id' => $this->id,
+            'shippingaddress' => $this->shippingaddress,
         ]);
 
        

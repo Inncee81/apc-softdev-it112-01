@@ -9,7 +9,6 @@ use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\web\UploadedFile;
-use yii\filters\AccessControl;
 
 /**
  * ProductController implements the CRUD actions for Product model.
@@ -19,50 +18,15 @@ class ProductController extends Controller
     public function behaviors()
     {
         return [
-       'access' => [
-           'class' => AccessControl::className(),
-           'only' => ['logout', 'signup', 'about'],
-           'rules' => [
-               [
-                   'actions' => ['signup'],
-                   'allow' => true,
-                   'roles' => ['?'],
-               ],
-               [
-                   'actions' => ['logout'],
-                   'allow' => true,
-                   'roles' => ['@'],
-               ],
-               [
-                   'actions' => ['about'],
-                   'allow' => true,
-                   'roles' => ['@'],
-                   'matchCallback' => function ($rule, $action) {
-                       return User::isUserAdmin(Yii::$app->user->identity->username);
-                   }
-               ],
-           ],
-       ],
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
                     'delete' => ['post'],
-					'logout' => ['post'],
                 ],
             ],
         ];
     }
 
-	
-	
-    public function actions()
-    {
-        return [
-            'error' => [
-                'class' => 'yii\web\ErrorAction',
-            ],
-        ];
-    }
     /**
      * Lists all Product models.
      * @return mixed
@@ -165,31 +129,4 @@ class ProductController extends Controller
             throw new NotFoundHttpException('The requested page does not exist.');
         }
     }
-	
-	
-public function actionLogin()
-    {
-		if (!\Yii::$app->user->isGuest) {
-		return $this->goHome();
-   }
- 
-   $model = new LoginForm();
-   if ($model->load(Yii::$app->request->post()) && $model->loginAdmin()) {
-      return $this->goBack();
-   } else {
-       return $this->render('login', [
-          'model' => $model,
-       ]);
-   }
-}
-
-    public function actionLogout()
-    {
-        Yii::$app->user->logout();
-
-        return $this->goHome();
-    }	
-	
-	
-	
 }

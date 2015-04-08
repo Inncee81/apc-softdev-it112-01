@@ -2,6 +2,13 @@
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
+use backend\models\Report;
+use backend\models\ReportSearch;
+use common\models\user;
+use backend\models\Order;
+use backend\models\OrderSearch;
+use backend\models\Product;
+use backend\models\ProductSearch;
 
 /* @var $this yii\web\View */
 /* @var $model backend\models\Report */
@@ -31,8 +38,12 @@ $this->params['breadcrumbs'][] = $this->title;
             'id',
             'status',
             'order_id',
-            'user_id',
+            'order.product.name',
+            'order.qty',
+            'order.date',
+          
             'username',
+            
         ],
     ]) ?>
 

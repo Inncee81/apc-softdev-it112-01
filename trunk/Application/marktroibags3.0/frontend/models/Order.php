@@ -39,7 +39,7 @@ class Order extends \yii\db\ActiveRecord
         return [
             [['user_id', 'product_id', 'date',], 'required'],
             [['user_id', 'product_id'], 'integer'],
-            [['date','qty','username'], 'string', 'max' => 45]
+            [['date','qty','username','shippingaddress'], 'string', 'max' => 100]
         ];
     }
 
@@ -54,6 +54,7 @@ class Order extends \yii\db\ActiveRecord
             'user.username' => 'User',
             'product.name' => 'Product',
             'id' => 'ID',
+            'shippingaddress' => 'Shipping Address',
             'date' => 'Date Order Placed',
             
         ];
