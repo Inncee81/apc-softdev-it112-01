@@ -12,14 +12,14 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="report-index">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1>Order Status</h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
-        'filterModel' => $searchModel,
+        //'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 

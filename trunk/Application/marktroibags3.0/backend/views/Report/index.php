@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel backend\models\ReportSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Reports';
+$this->title = 'Order Status';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="report-index">

@@ -6,7 +6,7 @@ use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 use frontend\models\Order;
-use common\models\user;
+use common\models\User;
 use frontend\models\Product;
 
 /**
@@ -43,7 +43,8 @@ class OrderSearch extends Order
      */
     public function search($params)
     {
-        $query = Order::find();
+        $query = Order::find()
+            ->andWhere('user_id' == Yii::$app->user->identity->username);
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,

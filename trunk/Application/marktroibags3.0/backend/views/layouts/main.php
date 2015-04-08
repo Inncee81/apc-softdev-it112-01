@@ -35,10 +35,10 @@ AppAsset::register($this);
             $menuItems = [
                 ['label' => 'Home', 'url' => ['/site/index']],
                 ['label' => 'Product', 'url' => ['/product/index']],
-                ['label' => 'Promotion', 'url' => ['/promotion/index']],
-                ['label' => 'Report', 'url' => ['/report/index']],
-                ['label' => 'About', 'url' => ['/site/about']],
-                ['label' => 'Contact', 'url' => ['/site/contact']],
+               //['label' => 'Promotion', 'url' => ['/promotion/index']],
+                ['label' => 'Order Status', 'url' => ['/report/index']],
+               // ['label' => 'About', 'url' => ['/site/about']],
+               // ['label' => 'Contact', 'url' => ['/site/contact']],
                 
                 
             ];
