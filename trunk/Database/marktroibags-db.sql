@@ -1,13 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.2.11
+-- version 3.5.2.2
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 06, 2015 at 10:35 AM
--- Server version: 5.6.21
--- PHP Version: 5.6.3
+-- Generation Time: Apr 08, 2015 at 03:33 AM
+-- Server version: 5.5.27
+-- PHP Version: 5.4.7
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 
@@ -28,7 +28,8 @@ SET time_zone = "+00:00";
 
 CREATE TABLE IF NOT EXISTS `migration` (
   `version` varchar(180) NOT NULL,
-  `apply_time` int(11) DEFAULT NULL
+  `apply_time` int(11) DEFAULT NULL,
+  PRIMARY KEY (`version`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -50,16 +51,21 @@ CREATE TABLE IF NOT EXISTS `order` (
   `username` varchar(45) NOT NULL,
   `product_id` int(11) NOT NULL,
   `qty` varchar(45) NOT NULL,
-`id` int(11) NOT NULL,
-  `date` varchar(45) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `shippingaddress` varchar(100) NOT NULL,
+  `date` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `user_id` (`user_id`),
+  KEY `product_id` (`product_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=12 ;
 
 --
 -- Dumping data for table `order`
 --
 
-INSERT INTO `order` (`user_id`, `username`, `product_id`, `qty`, `id`, `date`) VALUES
-(1, 'marktroibags-admin', 6, '11', 10, '120815');
+INSERT INTO `order` (`user_id`, `username`, `product_id`, `qty`, `id`, `shippingaddress`, `date`) VALUES
+(1, 'admin', 6, '11', 10, '1234 Grasshopper drive Merrick Village Las Pinas', '12-08-15'),
+(5, 'admin', 10, '10,000', 11, '3 Humabon St Magallanes Makati City', '04-08-2015');
 
 -- --------------------------------------------------------
 
@@ -70,11 +76,13 @@ INSERT INTO `order` (`user_id`, `username`, `product_id`, `qty`, `id`, `date`) V
 CREATE TABLE IF NOT EXISTS `product` (
   `user_id` int(11) NOT NULL,
   `username` varchar(45) NOT NULL,
-`id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(100) NOT NULL,
   `description` varchar(200) NOT NULL,
-  `logo` varchar(200) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=latin1;
+  `logo` varchar(200) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `user_id` (`user_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;
 
 --
 -- Dumping data for table `product`
@@ -96,13 +104,15 @@ INSERT INTO `product` (`user_id`, `username`, `id`, `name`, `description`, `logo
 --
 
 CREATE TABLE IF NOT EXISTS `promotion` (
-`id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(45) NOT NULL,
   `description` varchar(255) NOT NULL,
   `date` varchar(45) NOT NULL,
   `avail` varchar(255) NOT NULL,
-  `user_id` int(11) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+  `user_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `user_id` (`user_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
 
 -- --------------------------------------------------------
 
@@ -111,11 +121,22 @@ CREATE TABLE IF NOT EXISTS `promotion` (
 --
 
 CREATE TABLE IF NOT EXISTS `report` (
-`id` int(45) NOT NULL,
-  `description` int(45) NOT NULL,
+  `id` int(45) NOT NULL AUTO_INCREMENT,
+  `status` varchar(45) NOT NULL,
   `order_id` int(11) NOT NULL,
-  `user_id` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `user_id` int(11) NOT NULL,
+  `username` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `order_id` (`order_id`),
+  KEY `user_id` (`user_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+--
+-- Dumping data for table `report`
+--
+
+INSERT INTO `report` (`id`, `status`, `order_id`, `user_id`, `username`) VALUES
+(2, 'initialized request', 10, 5, 'admin');
 
 -- --------------------------------------------------------
 
@@ -124,7 +145,7 @@ CREATE TABLE IF NOT EXISTS `report` (
 --
 
 CREATE TABLE IF NOT EXISTS `user` (
-`id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `fname` varchar(45) COLLATE utf8_unicode_ci NOT NULL,
   `lname` varchar(45) COLLATE utf8_unicode_ci NOT NULL,
   `contact_no` varchar(45) COLLATE utf8_unicode_ci NOT NULL,
@@ -139,8 +160,9 @@ CREATE TABLE IF NOT EXISTS `user` (
   `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `status` smallint(6) NOT NULL DEFAULT '10',
   `created_at` int(11) NOT NULL,
-  `updated_at` int(11) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+  `updated_at` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=7 ;
 
 --
 -- Dumping data for table `user`
@@ -152,75 +174,6 @@ INSERT INTO `user` (`id`, `fname`, `lname`, `contact_no`, `username`, `company_n
 (6, 'demo', 'demo', 'demo', 'demo', 'APC', NULL, 'Humabon Magallanes', '8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY', 0, '$2y$13$KoNYWb8Nx07dLsnIHPPOKePg5E2B2AQsqMUrcuOdiqcupR88g.cPW', NULL, 'demonstration2@apc.edu.ph', 10, 1427533355, 1427533355);
 
 --
--- Indexes for dumped tables
---
-
---
--- Indexes for table `migration`
---
-ALTER TABLE `migration`
- ADD PRIMARY KEY (`version`);
-
---
--- Indexes for table `order`
---
-ALTER TABLE `order`
- ADD PRIMARY KEY (`id`), ADD KEY `user_id` (`user_id`), ADD KEY `product_id` (`product_id`);
-
---
--- Indexes for table `product`
---
-ALTER TABLE `product`
- ADD PRIMARY KEY (`id`), ADD KEY `user_id` (`user_id`);
-
---
--- Indexes for table `promotion`
---
-ALTER TABLE `promotion`
- ADD PRIMARY KEY (`id`), ADD KEY `user_id` (`user_id`);
-
---
--- Indexes for table `report`
---
-ALTER TABLE `report`
- ADD PRIMARY KEY (`id`), ADD KEY `order_id` (`order_id`), ADD KEY `user_id` (`user_id`);
-
---
--- Indexes for table `user`
---
-ALTER TABLE `user`
- ADD PRIMARY KEY (`id`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `order`
---
-ALTER TABLE `order`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=11;
---
--- AUTO_INCREMENT for table `product`
---
-ALTER TABLE `product`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=16;
---
--- AUTO_INCREMENT for table `promotion`
---
-ALTER TABLE `promotion`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
---
--- AUTO_INCREMENT for table `report`
---
-ALTER TABLE `report`
-MODIFY `id` int(45) NOT NULL AUTO_INCREMENT;
---
--- AUTO_INCREMENT for table `user`
---
-ALTER TABLE `user`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=7;
---
 -- Constraints for dumped tables
 --
 
@@ -228,27 +181,27 @@ MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=7;
 -- Constraints for table `order`
 --
 ALTER TABLE `order`
-ADD CONSTRAINT `order_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`),
-ADD CONSTRAINT `order_ibfk_2` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`);
+  ADD CONSTRAINT `order_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`),
+  ADD CONSTRAINT `order_ibfk_2` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`);
 
 --
 -- Constraints for table `product`
 --
 ALTER TABLE `product`
-ADD CONSTRAINT `product_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`);
+  ADD CONSTRAINT `product_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`);
 
 --
 -- Constraints for table `promotion`
 --
 ALTER TABLE `promotion`
-ADD CONSTRAINT `promotion_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`);
+  ADD CONSTRAINT `promotion_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`);
 
 --
 -- Constraints for table `report`
 --
 ALTER TABLE `report`
-ADD CONSTRAINT `report_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `order` (`id`),
-ADD CONSTRAINT `report_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`);
+  ADD CONSTRAINT `report_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `order` (`id`),
+  ADD CONSTRAINT `report_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
