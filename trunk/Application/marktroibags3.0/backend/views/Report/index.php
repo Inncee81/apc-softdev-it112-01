@@ -2,12 +2,13 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
+use backend\models\Product;
 
 /* @var $this yii\web\View */
 /* @var $searchModel backend\models\ReportSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Order Status';
+$this->title = 'order Status';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="report-index">
@@ -27,8 +28,18 @@ $this->params['breadcrumbs'][] = $this->title;
 
             'id',
             'status',
-            'order_id',
-            'user_id',
+            
+            [
+              'attribute'=>'user_id',
+              'value'=>'user.username',
+            ],
+            
+            'order.qty',
+            [
+              'attribute'=>'order_id',
+              'value'=>'order.date',
+            ],
+            
             'username',
 
             ['class' => 'yii\grid\ActionColumn'],

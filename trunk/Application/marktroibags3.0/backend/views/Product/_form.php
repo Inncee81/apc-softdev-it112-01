@@ -14,7 +14,7 @@ use common\models\user;
 
     <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]); ?>  
      
-    <?= $form->field($model, 'user_id')->textInput(['value'=>Yii::$app->user->identity->id]) ?>  
+    
     <?= $form->field($model, 'username')->textInput(['value'=>Yii::$app->user->identity->username]) ?>
 
     <?= $form->field($model, 'name')->textInput(['maxlength' => 45]) ?>

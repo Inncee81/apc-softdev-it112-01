@@ -33,9 +33,22 @@ use yii\base\Model;
         ArrayHelper::map(product::find()->all(),'id','name'),
         ['prompt'=>'Select product']
      )?>
+     <?= $form->field($model, 'qty')->textInput(['maxlength' => 45]) ?> 
+     
+     <?= $form->field($model, 'product2')->dropDownlist(
+        ArrayHelper::map(product::find()->all(),'id','name'),
+        ['prompt'=>'Select product']
+     )?>
+     <?= $form->field($model, 'qty2')->textInput(['maxlength' => 45]) ?> 
+     
+     <?= $form->field($model, 'product3')->dropDownlist(
+        ArrayHelper::map(product::find()->all(),'id','name'),
+        ['prompt'=>'Select product']
+     )?>
+     <?= $form->field($model, 'qty3')->textInput(['maxlength' => 45]) ?> 
+     
     
-       
-    <?= $form->field($model, 'qty')->textInput(['maxlength' => 45]) ?>   
+     <?= $form->field($model, 'specification')->textArea() ?>   
     
     <?= $form->field($model, 'shippingaddress')->textInput(['maxlength' => 100]) ?>
 

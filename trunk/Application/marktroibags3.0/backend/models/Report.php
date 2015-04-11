@@ -12,7 +12,7 @@ use Yii;
  * @property integer $order_id
  * @property integer $user_id
  *
- * @property Order $order
+ * @property order $order
  * @property User $user
  */
 class Report extends \yii\db\ActiveRecord
@@ -45,18 +45,20 @@ class Report extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'status' => 'Status',
-            'order_id' => 'Order ID',
-            'user_id' => 'User ID',
-            'order.product.name' => 'Product Name'
+            'order_id' => 'order Date',
+            'user_id' => 'Customer Username',
+            'order.product.name' => 'Product Name',
+            
+            
         ];
     }
 
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getOrder()
+    public function getorder()
     {
-        return $this->hasOne(Order::className(), ['id' => 'order_id']);
+        return $this->hasOne(order::className(), ['id' => 'order_id']);
     }
 
     /**

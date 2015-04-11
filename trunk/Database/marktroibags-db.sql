@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 08, 2015 at 03:33 AM
+-- Generation Time: Apr 11, 2015 at 02:13 PM
 -- Server version: 5.5.27
 -- PHP Version: 5.4.7
 
@@ -51,21 +51,27 @@ CREATE TABLE IF NOT EXISTS `order` (
   `username` varchar(45) NOT NULL,
   `product_id` int(11) NOT NULL,
   `qty` varchar(45) NOT NULL,
+  `product2` varchar(100) NOT NULL,
+  `qty2` varchar(100) NOT NULL,
+  `product3` varchar(100) NOT NULL,
+  `qty3` varchar(100) NOT NULL,
+  `specification` varchar(100) NOT NULL,
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `shippingaddress` varchar(100) NOT NULL,
   `date` varchar(45) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`),
-  KEY `product_id` (`product_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=12 ;
+  KEY `product_id` (`product_id`),
+  KEY `product2` (`product2`,`qty2`,`product3`,`qty3`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=14 ;
 
 --
 -- Dumping data for table `order`
 --
 
-INSERT INTO `order` (`user_id`, `username`, `product_id`, `qty`, `id`, `shippingaddress`, `date`) VALUES
-(1, 'admin', 6, '11', 10, '1234 Grasshopper drive Merrick Village Las Pinas', '12-08-15'),
-(5, 'admin', 10, '10,000', 11, '3 Humabon St Magallanes Makati City', '04-08-2015');
+INSERT INTO `order` (`user_id`, `username`, `product_id`, `qty`, `product2`, `qty2`, `product3`, `qty3`, `specification`, `id`, `shippingaddress`, `date`) VALUES
+(7, 'user1', 6, '5,000', '', '', '', '', '', 12, '3 Humabon St Magallanes Makati City', '04-08-2015'),
+(5, 'admin', 6, '10,000', '7', '3,000', '8', '1,000', 'nothing in particular', 13, '3 Humabon St Magallanes Makati City', '03-30-2015');
 
 -- --------------------------------------------------------
 
@@ -82,7 +88,7 @@ CREATE TABLE IF NOT EXISTS `product` (
   `logo` varchar(200) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=17 ;
 
 --
 -- Dumping data for table `product`
@@ -95,7 +101,8 @@ INSERT INTO `product` (`user_id`, `username`, `id`, `name`, `description`, `logo
 (1, 'marktroibags-admin', 9, 'Laptop', 'Backpacks, messenger bags, briefcases, and top loaders are the four main kinds of laptop bags. ', 'uploads/Laptop.jpg'),
 (1, 'marktroibags-admin', 10, 'Purse', 'A usually closable bag used for carrying keys, a wallet, and other personal items, especially by women; a handbag.', 'uploads/Purse.jpg'),
 (1, 'marktroibags-admin', 11, 'Shoulder Bag', 'A handbag carried by a strap that is looped over the shoulder.', 'uploads/Shoulder Bag.jpg'),
-(1, 'marktroibags-admin', 12, 'Sports/Travelling', 'A large cylindrical bag made of cloth or other fabric with a drawstring closure at the top. It is often used to carry luggage or sports equipment by people who travel in the outdoors.', '');
+(1, 'marktroibags-admin', 12, 'Sports/Travelling', 'A large cylindrical bag made of cloth or other fabric with a drawstring closure at the top. It is often used to carry luggage or sports equipment by people who travel in the outdoors.', ''),
+(5, 'admin', 16, 'sample bag', 'sample sample', 'uploads/sample bag.jpg');
 
 -- --------------------------------------------------------
 
@@ -129,14 +136,14 @@ CREATE TABLE IF NOT EXISTS `report` (
   PRIMARY KEY (`id`),
   KEY `order_id` (`order_id`),
   KEY `user_id` (`user_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
 
 --
 -- Dumping data for table `report`
 --
 
 INSERT INTO `report` (`id`, `status`, `order_id`, `user_id`, `username`) VALUES
-(2, 'initialized request', 10, 5, 'admin');
+(3, 'Initialized request', 12, 5, 'admin');
 
 -- --------------------------------------------------------
 
@@ -162,7 +169,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `created_at` int(11) NOT NULL,
   `updated_at` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=7 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=8 ;
 
 --
 -- Dumping data for table `user`
@@ -171,7 +178,8 @@ CREATE TABLE IF NOT EXISTS `user` (
 INSERT INTO `user` (`id`, `fname`, `lname`, `contact_no`, `username`, `company_name`, `company_description`, `shipping_address`, `auth_key`, `role`, `password_hash`, `password_reset_token`, `email`, `status`, `created_at`, `updated_at`) VALUES
 (1, 'marktroi', 'bags', '09272016877', 'marktroibags-admin', 'marktroibags', 'manufacturing', 'Alabang, Muntinlupa', 'tboWIZFl47996Fcsfy57YXwS2QoWl8j8', 0, '$2y$13$dLTfvZim.sVdfNOBV/tkcuTTH3SmXounCU4qCvhzrmXoksef1YjHG', NULL, 'marktroibags@gmail.com', 10, 1426359931, 1426359931),
 (5, 'admin', 'admin', '12345', 'admin', 'APC', NULL, 'Humabon Magallanes', 'y3LLXm_G6JEYj82dUoAMomogA0rIu20m', 0, '$2y$13$KUkjhvylbwknrw8z7p6uLuE4TfgF8RDgwXFQPdaq7FTsn.vo0cH8W', NULL, 'demonstration@apc.edu.ph', 10, 1427533223, 1427533223),
-(6, 'demo', 'demo', 'demo', 'demo', 'APC', NULL, 'Humabon Magallanes', '8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY', 0, '$2y$13$KoNYWb8Nx07dLsnIHPPOKePg5E2B2AQsqMUrcuOdiqcupR88g.cPW', NULL, 'demonstration2@apc.edu.ph', 10, 1427533355, 1427533355);
+(6, 'demo', 'demo', 'demo', 'demo', 'APC', NULL, 'Humabon Magallanes', '8urHe0RqNuerCN2oPGM9jvpBCKRiVPjY', 0, '$2y$13$KoNYWb8Nx07dLsnIHPPOKePg5E2B2AQsqMUrcuOdiqcupR88g.cPW', NULL, 'demonstration2@apc.edu.ph', 10, 1427533355, 1427533355),
+(7, 'Troi', 'Bolton', '12345', 'user1', 'user1 company', NULL, 'Bangkal', 'Nc_im7-2piRLyph_cr2WG5Zt0VeqofqR', 0, '$2y$13$z7hDHk.Xq4CeYk8OITzY2.igleNeU/sL0cz3b0HqYvEhB0yamz.7u', NULL, 'user1@gmail.com', 10, 1428468788, 1428468788);
 
 --
 -- Constraints for dumped tables

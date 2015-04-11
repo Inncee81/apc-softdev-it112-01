@@ -34,7 +34,7 @@ class Product extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['user_id','name', 'description'], 'required'],
+            [['name', 'description'], 'required'],
             [['user_id', 'id'], 'integer'],
             [['name', 'description','logo','username'], 'string', 'max' => 200],
             [['file'],'file']

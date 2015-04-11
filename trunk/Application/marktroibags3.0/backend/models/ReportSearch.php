@@ -9,8 +9,8 @@ use backend\models\Report;
 
 use backend\models\ReportSearch;
 use common\models\user;
-use backend\models\Order;
-use backend\models\OrderSearch;
+use backend\models\order;
+use backend\models\orderSearch;
 use backend\models\Product;
 use backend\models\ProductSearch;
 
@@ -25,8 +25,8 @@ class ReportSearch extends Report
     public function rules()
     {
         return [
-            [['id', 'order_id', 'user_id'], 'integer'],
-            [['status', 'username'], 'safe'],
+            [['id', 'order_id'], 'integer'],
+            [['status', 'username', 'user_id'], 'safe'],
         ];
     }
 
@@ -61,15 +61,20 @@ class ReportSearch extends Report
             // $query->where('0=1');
             return $dataProvider;
         }
+        
+        $query->joinWith('user');
+        $query->joinWith('order');
 
         $query->andFilterWhere([
             'id' => $this->id,
-            'order_id' => $this->order_id,
-            'user_id' => $this->user_id,
+            
+            
         ]);
 
         $query->andFilterWhere(['like', 'status', $this->status])
-            ->andFilterWhere(['like', 'username', $this->username]);
+            ->andFilterWhere(['like', 'username', $this->username])
+            ->andFilterWhere(['like', 'user.username', $this->user_id])
+            ->andFilterWhere(['like', 'order.date', $this->order_id]);
 
         return $dataProvider;
     }
