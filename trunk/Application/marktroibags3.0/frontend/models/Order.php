@@ -38,8 +38,8 @@ class Order extends \yii\db\ActiveRecord
     {
         return [
             [['user_id', 'product_id', 'date',], 'required'],
-            [['user_id', 'product_id','product2','product3'], 'integer'],
-            [['date','qty','username','shippingaddress','specification','qty2','qty3'], 'string', 'max' => 100]
+            [['user_id', 'product_id'], 'integer'],
+            [['date','qty','username','shippingaddress','specification'], 'string', 'max' => 100]
         ];
     }
 

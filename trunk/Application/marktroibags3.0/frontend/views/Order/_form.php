@@ -23,8 +23,6 @@ use yii\base\Model;
 
     <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]); ?>
     
-    
-     
 
     
     <?= $form->field($model, 'username')->textInput(['value'=>Yii::$app->user->identity->username]) ?>
@@ -34,18 +32,6 @@ use yii\base\Model;
         ['prompt'=>'Select product']
      )?>
      <?= $form->field($model, 'qty')->textInput(['maxlength' => 45]) ?> 
-     
-     <?= $form->field($model, 'product2')->dropDownlist(
-        ArrayHelper::map(product::find()->all(),'id','name'),
-        ['prompt'=>'Select product']
-     )?>
-     <?= $form->field($model, 'qty2')->textInput(['maxlength' => 45]) ?> 
-     
-     <?= $form->field($model, 'product3')->dropDownlist(
-        ArrayHelper::map(product::find()->all(),'id','name'),
-        ['prompt'=>'Select product']
-     )?>
-     <?= $form->field($model, 'qty3')->textInput(['maxlength' => 45]) ?> 
      
     
      <?= $form->field($model, 'specification')->textArea() ?>   

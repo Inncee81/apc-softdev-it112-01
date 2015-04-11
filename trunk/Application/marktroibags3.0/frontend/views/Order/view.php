@@ -36,13 +36,10 @@ $this->params['breadcrumbs'][] = $this->title;
             'user_id'=>'user.username',
             'product_id'=>'product.name',
             'qty',
-            'product2'=>'product.name',
-            'qty2',
-            'product3'=>'product.name',
-            'qty3',
             'id',
             'shippingaddress',
             'date',
+            'status',
            
             
         ],

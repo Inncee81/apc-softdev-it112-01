@@ -8,7 +8,7 @@ use backend\models\Product;
 /* @var $searchModel backend\models\ReportSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'order Status';
+$this->title = 'Reports';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="report-index">
@@ -27,7 +27,7 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 
             'id',
-            'status',
+            
             
             [
               'attribute'=>'user_id',

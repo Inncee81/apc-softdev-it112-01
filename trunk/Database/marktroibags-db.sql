@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 11, 2015 at 02:13 PM
+-- Generation Time: Apr 11, 2015 at 04:59 PM
 -- Server version: 5.5.27
 -- PHP Version: 5.4.7
 
@@ -51,27 +51,22 @@ CREATE TABLE IF NOT EXISTS `order` (
   `username` varchar(45) NOT NULL,
   `product_id` int(11) NOT NULL,
   `qty` varchar(45) NOT NULL,
-  `product2` varchar(100) NOT NULL,
-  `qty2` varchar(100) NOT NULL,
-  `product3` varchar(100) NOT NULL,
-  `qty3` varchar(100) NOT NULL,
   `specification` varchar(100) NOT NULL,
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `shippingaddress` varchar(100) NOT NULL,
   `date` varchar(45) NOT NULL,
+  `status` varchar(200) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`),
-  KEY `product_id` (`product_id`),
-  KEY `product2` (`product2`,`qty2`,`product3`,`qty3`)
+  KEY `product_id` (`product_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=14 ;
 
 --
 -- Dumping data for table `order`
 --
 
-INSERT INTO `order` (`user_id`, `username`, `product_id`, `qty`, `product2`, `qty2`, `product3`, `qty3`, `specification`, `id`, `shippingaddress`, `date`) VALUES
-(7, 'user1', 6, '5,000', '', '', '', '', '', 12, '3 Humabon St Magallanes Makati City', '04-08-2015'),
-(5, 'admin', 6, '10,000', '7', '3,000', '8', '1,000', 'nothing in particular', 13, '3 Humabon St Magallanes Makati City', '03-30-2015');
+INSERT INTO `order` (`user_id`, `username`, `product_id`, `qty`, `specification`, `id`, `shippingaddress`, `date`, `status`) VALUES
+(7, 'demo', 6, '5,000', '', 12, '3 Humabon St Magallanes Makati City', '04-08-2015', 'initiallized');
 
 -- --------------------------------------------------------
 
@@ -129,21 +124,22 @@ CREATE TABLE IF NOT EXISTS `promotion` (
 
 CREATE TABLE IF NOT EXISTS `report` (
   `id` int(45) NOT NULL AUTO_INCREMENT,
-  `status` varchar(45) NOT NULL,
   `order_id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,
   `username` varchar(45) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `order_id` (`order_id`),
   KEY `user_id` (`user_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=8 ;
 
 --
 -- Dumping data for table `report`
 --
 
-INSERT INTO `report` (`id`, `status`, `order_id`, `user_id`, `username`) VALUES
-(3, 'Initialized request', 12, 5, 'admin');
+INSERT INTO `report` (`id`, `order_id`, `user_id`, `username`) VALUES
+(5, 12, 6, 'demo'),
+(6, 12, 6, 'demo'),
+(7, 12, 6, 'demo');
 
 -- --------------------------------------------------------
 

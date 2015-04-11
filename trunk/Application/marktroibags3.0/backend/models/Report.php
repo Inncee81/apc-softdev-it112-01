@@ -31,9 +31,9 @@ class Report extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['status', 'order_id', 'user_id'], 'required'],
+            [['order_id', 'user_id'], 'required'],
             [['order_id', 'user_id'], 'integer'],
-            [['status','username'], 'string', 'max' => 200]
+            [['username'], 'string', 'max' => 200]
         ];
     }
 
@@ -44,7 +44,7 @@ class Report extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'status' => 'Status',
+            
             'order_id' => 'order Date',
             'user_id' => 'Customer Username',
             'order.product.name' => 'Product Name',

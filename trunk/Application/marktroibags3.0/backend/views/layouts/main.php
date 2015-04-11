@@ -36,7 +36,8 @@ AppAsset::register($this);
                 ['label' => 'Home', 'url' => Yii::$app->homeUrl],
                 ['label' => 'Product', 'url' => ['/product/index']],
                //['label' => 'Promotion', 'url' => ['/promotion/index']],
-                ['label' => 'Order Status', 'url' => ['/report/index']],
+                ['label' => 'Report', 'url' => ['/report/index']],
+                ['label' => 'Order Status', 'url' => ['/order/index']],
                // ['label' => 'About', 'url' => ['/site/about']],
                // ['label' => 'Contact', 'url' => ['/site/contact']],
                 

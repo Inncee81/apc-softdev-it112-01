@@ -17,7 +17,7 @@ use frontend\models\Order;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'status')->textInput(['maxlength' => 200]) ?>
+    
 
     
 

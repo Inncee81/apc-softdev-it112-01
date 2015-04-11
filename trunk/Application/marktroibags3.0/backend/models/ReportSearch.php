@@ -26,7 +26,7 @@ class ReportSearch extends Report
     {
         return [
             [['id', 'order_id'], 'integer'],
-            [['status', 'username', 'user_id'], 'safe'],
+            [['username', 'user_id'], 'safe'],
         ];
     }
 
@@ -71,7 +71,7 @@ class ReportSearch extends Report
             
         ]);
 
-        $query->andFilterWhere(['like', 'status', $this->status])
+        $query
             ->andFilterWhere(['like', 'username', $this->username])
             ->andFilterWhere(['like', 'user.username', $this->user_id])
             ->andFilterWhere(['like', 'order.date', $this->order_id]);

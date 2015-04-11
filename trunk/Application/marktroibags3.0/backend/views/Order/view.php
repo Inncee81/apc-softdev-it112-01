@@ -2,9 +2,14 @@
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
+use frontend\models\Order;
+use frontend\models\OrderSearch;
+
+use common\models\user;
+use frontend\models\Product;
 
 /* @var $this yii\web\View */
-/* @var $model backend\models\Order */
+/* @var $model frontend\models\Order */
 
 $this->title = $model->id;
 $this->params['breadcrumbs'][] = ['label' => 'Orders', 'url' => ['index']];
@@ -28,12 +33,15 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
-            'user_id',
-            'product_id',
-            'promotion_id',
+            'user_id'=>'user.username',
+            'product_id'=>'product.name',
+            'qty',
             'id',
+            'shippingaddress',
             'date',
             'status',
+           
+            
         ],
     ]) ?>
 

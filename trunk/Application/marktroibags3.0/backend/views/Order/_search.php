@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model backend\models\OrderSearch */
+/* @var $model frontend\models\OrderSearch */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
@@ -19,13 +19,13 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'product_id') ?>
 
-    <?= $form->field($model, 'promotion_id') ?>
+    <?= $form->field($model, 'qty') ?>
 
     <?= $form->field($model, 'id') ?>
 
     <?= $form->field($model, 'date') ?>
 
-    <?php // echo $form->field($model, 'status') ?>
+    
 
     <div class="form-group">
         <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>
