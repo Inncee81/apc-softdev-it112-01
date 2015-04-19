@@ -3,6 +3,8 @@ namespace frontend\controllers;
 
 use Yii;
 use common\models\LoginForm;
+use common\models\UserDet;
+use common\models\UserDetSearch;
 use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
@@ -168,4 +170,5 @@ class SiteController extends Controller
             'model' => $model,
         ]);
     }
+
 }

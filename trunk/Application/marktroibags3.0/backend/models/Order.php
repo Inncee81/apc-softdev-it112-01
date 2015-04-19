@@ -3,26 +3,39 @@
 namespace backend\models;
 
 use Yii;
-
 use backend\models\Product;
+
+use yii\helpers\ArrayHelper;
 
 /**
  * This is the model class for table "order".
  *
  * @property integer $user_id
+ * @property string $username
  * @property integer $product_id
- * @property integer $promotion_id
+ * @property string $qty
  * @property integer $id
  * @property string $date
- * @property string $status
+ * @property string $Status
  *
  * @property User $user
  * @property Product $product
- * @property Promotion $promotion
  * @property Report[] $reports
  */
 class Order extends \yii\db\ActiveRecord
 {
+    public static function getUsername(){
+        $UsernameID=User::find()->all();
+        $listData=ArrayHelper::map($UsernameID,'username','username');
+        return $listData;
+    }
+
+        public static function getProductName(){
+        $products=Product::find()->all();
+        $listData=ArrayHelper::map($products,'id','name');
+        return $listData;
+    }
+
     /**
      * @inheritdoc
      */
@@ -37,9 +50,10 @@ class Order extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['user_id', 'product_id', 'date',], 'required'],
+            [['user_id', 'username', 'product_id', 'qty', 'date', 'Status'], 'required'],
             [['user_id', 'product_id'], 'integer'],
-            [['date','qty','username','shippingaddress','specification','status'], 'string', 'max' => 200]
+            [['username', 'qty', 'date'], 'string', 'max' => 45],
+            [['Status'], 'string', 'max' => 255]
         ];
     }
 
@@ -49,14 +63,13 @@ class Order extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'user_id' => 'User',
-            'product_id' => 'Product',
-            'user.username' => 'User',
-            'product.name' => 'Product',
+            'user_id' => 'User ID',
+            'username' => 'Username',
+            'product_id' => 'Product Name',
+            'qty' => 'Qty',
             'id' => 'ID',
-            'shippingaddress' => 'Shipping Address',
-            'date' => 'Date Order Placed',
-            
+            'date' => 'Date (Format MM-DD-YYYY)',
+            'Status' => 'Status',
         ];
     }
 
@@ -67,14 +80,6 @@ class Order extends \yii\db\ActiveRecord
     {
         return $this->hasOne(User::className(), ['id' => 'user_id']);
     }
-    
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getUsername()
-    {
-        return $this->hasOne(Username::className(), ['id' => 'username']);
-    }
 
     /**
      * @return \yii\db\ActiveQuery
@@ -83,10 +88,6 @@ class Order extends \yii\db\ActiveRecord
     {
         return $this->hasOne(Product::className(), ['id' => 'product_id']);
     }
-
-    /**
-     * @return \yii\db\ActiveQuery
-     */
 
     /**
      * @return \yii\db\ActiveQuery

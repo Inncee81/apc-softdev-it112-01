@@ -3,7 +3,6 @@
 namespace frontend\models;
 
 use Yii;
-use common\models\user;
 
 /**
  * This is the model class for table "product".
@@ -48,7 +47,7 @@ class Product extends \yii\db\ActiveRecord
     {
         return [
             'user_id' => 'User',
-            'id' => 'ID',
+            'id' => 'Product ID',
             'name' => 'Name',
             'description' => 'Description',
             'file' => 'Product Img ------ Upload Images with file extension .jpg only'

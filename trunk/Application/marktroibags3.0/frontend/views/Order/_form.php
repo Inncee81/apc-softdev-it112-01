@@ -2,45 +2,38 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use common\models\user;
-use frontend\models\Product;
+use backend\models\Product;
 use yii\helpers\ArrayHelper;
-use common\models\LoginForm;
-use yii\base\Model;
-
-
 
 /* @var $this yii\web\View */
 /* @var $model frontend\models\Order */
 /* @var $form yii\widgets\ActiveForm */
-
-
 ?>
-
-
 
 <div class="order-form">
 
-    <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]); ?>
-    
+    <?php $form = ActiveForm::begin(); ?>
 
-    
-    <?= $form->field($model, 'username')->textInput(['value'=>Yii::$app->user->identity->username]) ?>
+        <?= $form->field($model, 'user_id')->textInput(array('readonly' => true, 'value' => Yii::$app->user->identity->id)) ?>
+    <?= $form->field($model, 'username')->textInput(array('readonly' => true, 'value' => Yii::$app->user->identity->username)) ?>
+ 
 
-    <?= $form->field($model, 'product_id')->dropDownlist(
-        ArrayHelper::map(product::find()->all(),'id','name'),
-        ['prompt'=>'Select product']
-     )?>
-     <?= $form->field($model, 'qty')->textInput(['maxlength' => 45]) ?> 
-     
-    
-     <?= $form->field($model, 'specification')->textArea() ?>   
-    
-    <?= $form->field($model, 'shippingaddress')->textInput(['maxlength' => 100]) ?>
+
+    <?php 
+        $products=Product::find()->all();
+
+        $listData=ArrayHelper::map($products,'id','name');
+
+        echo $form->field($model, 'product_id')->dropDownList(
+                                $listData, 
+                                ['prompt'=>'Select Product...']);
+    ?>
+
+    <?= $form->field($model, 'qty')->textInput(['maxlength' => 45]) ?>
 
     <?= $form->field($model, 'date')->textInput(['maxlength' => 45]) ?>
 
-    
+    <?= $form->field($model, 'Status')->textInput(array('readonly' => true, 'value' => 'Pending')) ?>
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>

@@ -8,9 +8,6 @@ use frontend\models\OrderSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use common\models\User;
-use yii\base\Component;
-use yii\base\Object;
 
 /**
  * OrderController implements the CRUD actions for Order model.
@@ -64,8 +61,7 @@ class OrderController extends Controller
     public function actionCreate()
     {
         $model = new Order();
-    
-        $model->user_id =Yii::$app->user->identity->id;
+
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         } else {

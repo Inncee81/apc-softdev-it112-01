@@ -32,32 +32,36 @@ AppAsset::register($this);
                     'class' => 'navbar-inverse navbar-fixed-top',
                 ],
             ]);
-            $menuItems = [
-                ['label' => 'Home', 'url' => Yii::$app->homeUrl],
-                ['label' => 'Product', 'url' => ['/product/index']],
-                ['label' => 'Order', 'url' => ['/order/create']],
-                ['label' => 'Order Status', 'url' => ['/order/index']],
-                //['label' => 'Promotion', 'url' => ['/promotion/index']],
-                ['label' => 'About', 'url' => ['/site/about']],
-                ['label' => 'Contact', 'url' => ['/site/contact']],
-                
-            ];
+
+
             if (Yii::$app->user->isGuest) {
-                $menuItems[] = ['label' => '', 'items' => [
-                                ['label' => 'Signup', 'url' => ['/site/signup']],
-                                ['label' => 'Login', 'url' => ['/site/login']]]
+                    $menuItems = 
+                    [
+                    ['label' => 'Home', 'url' => Yii::$app->homeUrl],
+                    ['label' => 'Products', 'url' => ['/product/index']],
+                    ['label' => 'About Us', 'url' => ['/site/about']],
+                    ['label' => 'Contact Us', 'url' => ['/site/contact']],
+                    ['label' => 'Signup', 'url' => ['/site/signup']],
+                    ['label' => 'Login', 'url' => ['/site/login']],
                 ];
-            } else {
+
+                } else {
                 if(Yii::$app->user->identity->id == 1){
-                                 $menuItems[] = ['label' => '', 'items' => [
+                    $menuItems[] = ['label' => '', 'items' => [
                     ['label' => 'Manage', 'url' => [Yii::$app->homeUrl.'../']],                    
                     ['label' => 'Logout (' . Yii::$app->user->identity->username . ')', 'url' => ['/site/logout'], 'linkOptions' => ['data-method' => 'post']]
                 ]];
                 } else {
-                             $menuItems[] = ['label' => '', 'items' => [
+                    $menuItems = 
+                    [
+                    ['label' => 'Home', 'url' => Yii::$app->homeUrl],
+                    ['label' => 'Products', 'url' => ['/product/index']],
+                    ['label' => 'My Orders', 'url' => ['/order/index']],
+                    ['label' => 'About Us', 'url' => ['/site/about']],
+                    ['label' => 'Contact Us', 'url' => ['/site/contact']],
                     ['label' => 'My Account', 'url' => ['/user/view/'.Yii::$app->user->identity->id]],                    
-                    ['label' => 'Logout (' . Yii::$app->user->identity->username . ')', 'url' => ['/site/logout'], 'linkOptions' => ['data-method' => 'post']]
-                ]];    
+                    ['label' => 'Logout (' . Yii::$app->user->identity->username . ')', 'url' => ['/site/logout'], 'linkOptions' => ['data-method' => 'post']],
+                ];    
                 }
             }
             echo Nav::widget([

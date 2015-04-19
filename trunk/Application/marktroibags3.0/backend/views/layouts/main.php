@@ -33,36 +33,29 @@ AppAsset::register($this);
                 ],
             ]);
             $menuItems = [
-                ['label' => 'Home', 'url' => Yii::$app->homeUrl],
-                ['label' => 'Product', 'url' => ['/product/index']],
+                
+                ['label' => 'Products', 'url' => ['/product/index']],
                //['label' => 'Promotion', 'url' => ['/promotion/index']],
                 ['label' => 'Report', 'url' => ['/report/index']],
-                ['label' => 'Order Status', 'url' => ['/order/index']],
+               // ['label' => 'Order Status', 'url' => ['/order/index']],
                // ['label' => 'About', 'url' => ['/site/about']],
                // ['label' => 'Contact', 'url' => ['/site/contact']],
                 
                 
             ];
             if (Yii::$app->user->isGuest) {
-                $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
+                $menuItems[] = ['label' => 'Home', 'url' => Yii::$app->homeUrl];
+                //$menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
                 $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
             } else {
-                 if(Yii::$app->user->identity->id == 1){
-                                 $menuItems[] = ['label' => '', 'items' => [
-                    ['label' => 'Manage', 'url' => [Yii::$app->homeUrl.'../']],                    
-                    ['label' => 'Logout (' . Yii::$app->user->identity->username . ')', 'url' => ['/site/logout'], 'linkOptions' => ['data-method' => 'post']]
-                ]];
-                } else {
-                             $menuItems[] = ['label' => '', 'items' => [
-                    ['label' => 'My Account', 'url' => ['/user/view/'.Yii::$app->user->identity->id]],                    
-                    ['label' => 'Logout (' . Yii::$app->user->identity->username . ')', 'url' => ['/site/logout'], 'linkOptions' => ['data-method' => 'post']]
-                ]];    
+                if(Yii::$app->user->identity->id == 1){
+                    $menuItems[] = ['label' => 'Products', 'url' => ['/product/index']];
+                    $menuItems[] = ['label' => 'Orders List', 'url' => ['/order/index']];   
+                    $menuItems[] = ['label' => 'Manage Users', 'url' => ['/user/index']];                    
+                    $menuItems[] = ['label' => 'Logout (' . Yii::$app->user->identity->username . ')', 'url' => ['/site/logout'], 'linkOptions' => ['data-method' => 'post']];
+                } else {                 
+                    $menuItems[] = ['label' => 'Logout (' . Yii::$app->user->identity->username . ')', 'url' => ['/site/logout'], 'linkOptions' => ['data-method' => 'post']];    
                 }
-                //$menuItems[] = [
-                    //'label' => 'Logout (' . Yii::$app->user->identity->username . ')',
-                   // 'url' => ['/site/logout'],
-                   // 'linkOptions' => ['data-method' => 'post']
-              //  ];
             }
             echo Nav::widget([
                 'options' => ['class' => 'navbar-nav navbar-right'],

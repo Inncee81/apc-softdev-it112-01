@@ -42,7 +42,10 @@ $this->params['breadcrumbs'][] = $this->title;
         
     ]) ?>
     <?= $ImageName = $model->name; ?>
-    <?= Html::a('View Product','uploads/'.$ImageName.'.jpg') ?>
+   
+    <img src="uploads/<?php echo $ImageName; ?>.jpg">
+    
+   
 
     
 </div>
