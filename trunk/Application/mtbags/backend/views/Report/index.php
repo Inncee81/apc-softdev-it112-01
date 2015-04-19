@@ -42,7 +42,7 @@ $this->params['breadcrumbs'][] = $this->title;
             
             'username',
 
-            ['class' => 'yii\grid\ActionColumn'],
+            ['class' => 'yii\grid\ActionColumn2'],
         ],
     ]); ?>
 

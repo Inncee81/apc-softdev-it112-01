@@ -4,7 +4,7 @@ namespace backend\models;
 
 use Yii;
 use backend\models\Product;
-use common\models\user;
+
 use yii\helpers\ArrayHelper;
 
 /**
