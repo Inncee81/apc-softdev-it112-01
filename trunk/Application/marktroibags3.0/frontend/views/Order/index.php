@@ -2,6 +2,8 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
+use common\models\user;
+use frontend\models\Product;
 
 /* @var $this yii\web\View */
 /* @var $searchModel frontend\models\OrderSearch */
@@ -15,27 +17,27 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
-    <p>
-        <?= Html::a('Create Order', ['create'], ['class' => 'btn btn-success']) ?>
-    </p>
+    
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
-        'filterModel' => $searchModel,
+        //'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            //'user_id',
-            'username',
-            //'product_id',
-            ['label' => 'Product Name', 'attribute' => 'product_id', 'value' => 'product.name'],
-            //'qty',
-            ['label' => 'Quantity', 'attribute' => 'qty'],
-            ['label' => 'Order ID', 'attribute' => 'id'],
+            [
+              'attribute'=>'user_id',
+              'value'=>'user.username',
+            ],
+            [
+              'attribute'=>'product_id',
+              'value'=>'product.name',
+            ],
+            
+            'qty',
             'date',
-            'Status',
-
-            ['class' => 'yii\grid\ActionColumn'],
+            'status',
+            ['class' => 'yii\grid\ActionColumn2'],
         ],
     ]); ?>
 

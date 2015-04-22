@@ -6,6 +6,8 @@ use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 use backend\models\Order;
+use common\models\User;
+use backend\models\Product;
 
 /**
  * OrderSearch represents the model behind the search form about `backend\models\Order`.
@@ -18,8 +20,8 @@ class OrderSearch extends Order
     public function rules()
     {
         return [
-            [['user_id', 'product_id', 'id'], 'integer'],
-            [['username', 'qty', 'date', 'Status'], 'safe'],
+            [['id'], 'integer'],
+            [['user_id','date','product_id','qty','username','shippingaddress'], 'safe'],
         ];
     }
 
@@ -41,8 +43,8 @@ class OrderSearch extends Order
      */
     public function search($params)
     {
-        //$uid = Yii::$app->user->identity->id;
-        $query = Order::find();//->where(['id' => $uid])->all();
+        $query = Order::find()
+            ->andWhere('user_id' == Yii::$app->user->identity->username);
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
@@ -58,15 +60,14 @@ class OrderSearch extends Order
 
         $query->andFilterWhere([
             'user_id' => $this->user_id,
+            
             'product_id' => $this->product_id,
+            'qty' => $this->qty,
             'id' => $this->id,
+            'shippingaddress' => $this->shippingaddress,
         ]);
 
-
-        $query->andFilterWhere(['username' => $this->username])
-            ->andFilterWhere(['like', 'qty', $this->qty])
-            ->andFilterWhere(['like', 'date', $this->date])
-            ->andFilterWhere(['like', 'Status', $this->Status]);
+       
 
         return $dataProvider;
     }

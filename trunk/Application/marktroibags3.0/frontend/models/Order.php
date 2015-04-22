@@ -3,20 +3,22 @@
 namespace frontend\models;
 
 use Yii;
+use common\models\user;
+use frontend\models\Product;
 
 /**
  * This is the model class for table "order".
  *
  * @property integer $user_id
- * @property string $username
  * @property integer $product_id
- * @property string $qty
+ * @property integer $promotion_id
  * @property integer $id
  * @property string $date
- * @property string $Status
+ * @property string $status
  *
  * @property User $user
  * @property Product $product
+ * @property Promotion $promotion
  * @property Report[] $reports
  */
 class Order extends \yii\db\ActiveRecord
@@ -35,10 +37,9 @@ class Order extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['user_id', 'username', 'product_id', 'qty', 'date', 'Status'], 'required'],
+            [['user_id', 'product_id', 'date',], 'required'],
             [['user_id', 'product_id'], 'integer'],
-            [['username', 'qty', 'date'], 'string', 'max' => 45],
-            [['Status'], 'string', 'max' => 255]
+            [['date','qty','username','shippingaddress','specification'], 'string', 'max' => 100]
         ];
     }
 
@@ -48,13 +49,14 @@ class Order extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'user_id' => 'User ID',
-            'username' => 'Username',
-            'product_id' => 'Product ID',
-            'qty' => 'Qty',
+            'user_id' => 'User',
+            'product_id' => 'Product',
+            'user.username' => 'User',
+            'product.name' => 'Product',
             'id' => 'ID',
+            'shippingaddress' => 'Shipping Address',
             'date' => 'Date(MM-DD-YYYY)',
-            'Status' => 'Status',
+            
         ];
     }
 
@@ -65,6 +67,14 @@ class Order extends \yii\db\ActiveRecord
     {
         return $this->hasOne(User::className(), ['id' => 'user_id']);
     }
+    
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getUsername()
+    {
+        return $this->hasOne(Username::className(), ['id' => 'username']);
+    }
 
     /**
      * @return \yii\db\ActiveQuery
@@ -73,6 +83,10 @@ class Order extends \yii\db\ActiveRecord
     {
         return $this->hasOne(Product::className(), ['id' => 'product_id']);
     }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
 
     /**
      * @return \yii\db\ActiveQuery
