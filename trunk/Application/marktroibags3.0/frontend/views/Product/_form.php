@@ -12,18 +12,14 @@ use common\models\user;
 
 <div class="product-form">
 
-    <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]); ?>
-
-    <?= $form->field($model, 'user_id')->dropDownlist(
-        ArrayHelper::map(user::find()->all(),'id','username'),
-        ['prompt'=>'Select user']
-     )?>   
-
-    <?= $form->field($model, 'id')->textInput() ?>
+    <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]); ?>  
+     
+    
+    <?= $form->field($model, 'username')->textInput(['value'=>Yii::$app->user->identity->username]) ?>
 
     <?= $form->field($model, 'name')->textInput(['maxlength' => 45]) ?>
 
-    <?= $form->field($model, 'description')->textInput(['maxlength' => 45]) ?>
+    <?= $form->field($model, 'description')->textArea() ?>
     
     <?= $form->field($model, 'file')->fileInput(); ?>
 

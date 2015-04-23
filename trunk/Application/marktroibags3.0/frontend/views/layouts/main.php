@@ -47,8 +47,15 @@ AppAsset::register($this);
 
                 } else {
                 if(Yii::$app->user->identity->id == 1){
+                    
+                    $menuItems[] = ['label' => 'Products', 'items' => [
+                    ['label' => 'Create', 'url' => ['/product/create']],                    
+                    ['label' => 'View', 'url' => ['/product/index']],
+                    
+                ]];
+                    $menuItems[] = ['label' => 'Orders List', 'url' => ['/order/index']];   
                     $menuItems[] = ['label' => '', 'items' => [
-                    ['label' => 'Manage', 'url' => [Yii::$app->homeUrl.'../']],                    
+                    //['label' => 'Manage', 'url' => [Yii::$app->homeUrl.'../']],                    
                     ['label' => 'Logout (' . Yii::$app->user->identity->username . ')', 'url' => ['/site/logout'], 'linkOptions' => ['data-method' => 'post']]
                 ]];
                 } else {
@@ -60,7 +67,7 @@ AppAsset::register($this);
                     ['label' => 'My Orders', 'url' => ['/order/index']],
                     ['label' => 'About Us', 'url' => ['/site/about']],
                     ['label' => 'Contact Us', 'url' => ['/site/contact']],
-                    ['label' => 'My Account', 'url' => ['/user/view/'.Yii::$app->user->identity->id]],                    
+                   // ['label' => 'My Account', 'url' => ['/user/view/'.Yii::$app->user->identity->id]],                    
                     ['label' => 'Logout (' . Yii::$app->user->identity->username . ')', 'url' => ['/site/logout'], 'linkOptions' => ['data-method' => 'post']],
                 ];    
                 }
