@@ -34,9 +34,9 @@ AppAsset::register($this);
             ]);
             $menuItems = [
                 
-                ['label' => 'Products', 'url' => ['/product/index']],
+                ['label' => 'Products', 'url' => ['/Product/index']],
                //['label' => 'Promotion', 'url' => ['/promotion/index']],
-                ['label' => 'Report', 'url' => ['/report/index']],
+                ['label' => 'Report', 'url' => ['/Report/index']],
                // ['label' => 'Order Status', 'url' => ['/order/index']],
                // ['label' => 'About', 'url' => ['/site/about']],
                // ['label' => 'Contact', 'url' => ['/site/contact']],
@@ -49,9 +49,9 @@ AppAsset::register($this);
                 $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
             } else {
                 if(Yii::$app->user->identity->id == 1){
-                    $menuItems[] = ['label' => 'Products', 'url' => ['/product/index']];
-                    $menuItems[] = ['label' => 'Orders List', 'url' => ['/order/index']];   
-                    $menuItems[] = ['label' => 'Manage Users', 'url' => ['/user/index']];                    
+                    $menuItems[] = ['label' => 'Products', 'url' => ['/Product/index']];
+                    $menuItems[] = ['label' => 'Orders List', 'url' => ['/Order/index']];   
+                    $menuItems[] = ['label' => 'Manage Users', 'url' => ['/User/index']];                    
                     $menuItems[] = ['label' => 'Logout (' . Yii::$app->user->identity->username . ')', 'url' => ['/site/logout'], 'linkOptions' => ['data-method' => 'post']];
                 } else {                 
                     $menuItems[] = ['label' => 'Logout (' . Yii::$app->user->identity->username . ')', 'url' => ['/site/logout'], 'linkOptions' => ['data-method' => 'post']];    

@@ -38,7 +38,7 @@ AppAsset::register($this);
                     $menuItems = 
                     [
                     ['label' => 'Home', 'url' => Yii::$app->homeUrl],
-                    ['label' => 'Products', 'url' => ['/product/index']],
+                    ['label' => 'Products', 'url' => ['/Product/index']],
                     ['label' => 'About Us', 'url' => ['/site/about']],
                     ['label' => 'Contact Us', 'url' => ['/site/contact']],
                     ['label' => 'Signup', 'url' => ['/site/signup']],
@@ -49,11 +49,11 @@ AppAsset::register($this);
                 if(Yii::$app->user->identity->id == 1){
                     
                     $menuItems[] = ['label' => 'Products', 'items' => [
-                    ['label' => 'Create', 'url' => ['/product/create']],                    
-                    ['label' => 'View', 'url' => ['/product/index']],
+                    ['label' => 'Create', 'url' => ['/Product/create']],                    
+                    ['label' => 'View', 'url' => ['/Product/index']],
                     
                 ]];
-                    $menuItems[] = ['label' => 'Orders List', 'url' => ['/order/index']];   
+                    $menuItems[] = ['label' => 'Orders List', 'url' => ['/Order/index']];   
                     $menuItems[] = ['label' => '', 'items' => [
                     //['label' => 'Manage', 'url' => [Yii::$app->homeUrl.'../']],                    
                     ['label' => 'Logout (' . Yii::$app->user->identity->username . ')', 'url' => ['/site/logout'], 'linkOptions' => ['data-method' => 'post']]
@@ -62,9 +62,9 @@ AppAsset::register($this);
                     $menuItems = 
                     [
                     ['label' => 'Home', 'url' => Yii::$app->homeUrl],
-                    ['label' => 'Products', 'url' => ['/product/index']],
-                    ['label' => 'Place Order', 'url' => ['/order/create']],
-                    ['label' => 'My Orders', 'url' => ['/order/index']],
+                    ['label' => 'Products', 'url' => ['/Product/index']],
+                    ['label' => 'Place Order', 'url' => ['/Order/create']],
+                    ['label' => 'My Orders', 'url' => ['/Order/index']],
                     ['label' => 'About Us', 'url' => ['/site/about']],
                     ['label' => 'Contact Us', 'url' => ['/site/contact']],
                    // ['label' => 'My Account', 'url' => ['/user/view/'.Yii::$app->user->identity->id]],                    
