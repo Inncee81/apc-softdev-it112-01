@@ -13,12 +13,15 @@ return [
     'bootstrap' => ['log'],
     'modules' => [],
     'components' => [
-    'urlManager' => [
+        
+        'urlManager' => [
         'class' => 'yii\web\UrlManager',
         // Disable index.php
         'showScriptName' => false,
         // Disable r= routes
         'enablePrettyUrl' => false,
+        ]
+        
         'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,
@@ -37,4 +40,4 @@ return [
         ],
     ],
     'params' => $params,
-]];
+];

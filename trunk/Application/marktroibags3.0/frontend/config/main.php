@@ -12,7 +12,7 @@ return [
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
-         'urlManager' => [
+        'urlManager' => [
         'class' => 'yii\web\UrlManager',
         // Disable index.php
         'showScriptName' => false,
