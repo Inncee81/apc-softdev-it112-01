@@ -13,7 +13,7 @@ use Yii;
  * @property string $description
  *
  * @property Order[] $orders
- * @property user $user
+ * @property User $User
  */
 class Product extends \yii\db\ActiveRecord
 {
@@ -65,8 +65,8 @@ class Product extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getuser()
+    public function getUser()
     {
-        return $this->hasOne(user::className(), ['id' => 'user_id']);
+        return $this->hasOne(User::className(), ['id' => 'user_id']);
     }
 }

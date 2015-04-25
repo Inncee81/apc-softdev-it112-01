@@ -68,7 +68,7 @@ class Product extends \yii\db\ActiveRecord
      */
     public function getuser()
     {
-        return $this->hasOne(user::className(), ['id' => 'user_id']);
+        return $this->hasOne(User::className(), ['id' => 'user_id']);
     }
     
     /**

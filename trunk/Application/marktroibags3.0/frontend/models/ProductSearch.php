@@ -55,7 +55,7 @@ class ProductSearch extends Product
             // $query->where('0=1');
             return $dataProvider;
         }
-        $query->joinWith('user');
+        $query->joinWith('User');
 
         $query->andFilterWhere([
             
@@ -64,7 +64,7 @@ class ProductSearch extends Product
 
         $query->andFilterWhere(['like', 'name', $this->name])
             ->andFilterWhere(['like', 'description', $this->description])
-            ->andFilterWhere(['like', 'user.username', $this->user_id]);
+            ->andFilterWhere(['like', 'User.username', $this->user_id]);
             
 
         return $dataProvider;
