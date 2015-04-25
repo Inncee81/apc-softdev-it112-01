@@ -2,7 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use common\models\user;
+use common\models\User;
 use frontend\models\Product;
 use yii\helpers\ArrayHelper;
 use common\models\LoginForm;

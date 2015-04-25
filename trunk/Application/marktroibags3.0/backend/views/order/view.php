@@ -5,7 +5,7 @@ use yii\widgets\DetailView;
 use frontend\models\Order;
 use frontend\models\OrderSearch;
 
-use common\models\user;
+use common\models\User;
 use frontend\models\Product;
 
 /* @var $this yii\web\View */

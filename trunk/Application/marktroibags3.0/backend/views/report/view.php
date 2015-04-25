@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\DetailView;
 use backend\models\Report;
 use backend\models\ReportSearch;
-use common\models\user;
+use common\models\User;
 use backend\models\Order;
 use backend\models\OrderSearch;
 use backend\models\Product;

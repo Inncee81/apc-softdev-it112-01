@@ -9,7 +9,7 @@ use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
-use common\models\user;
+use common\models\User;
 use backend\models\Order;
 use backend\models\OrderSearch;
 use backend\models\Product;

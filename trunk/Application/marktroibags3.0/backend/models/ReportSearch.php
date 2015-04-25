@@ -8,9 +8,9 @@ use yii\data\ActiveDataProvider;
 use backend\models\Report;
 
 use backend\models\ReportSearch;
-use common\models\user;
-use backend\models\order;
-use backend\models\orderSearch;
+use common\models\User;
+use backend\models\Order;
+use backend\models\OrderSearch;
 use backend\models\Product;
 use backend\models\ProductSearch;
 

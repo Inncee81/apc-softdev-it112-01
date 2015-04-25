@@ -6,7 +6,7 @@ use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 use frontend\models\Product;
-use common\models\user;
+use common\models\User;
 
 /**
  * ProductSearch represents the model behind the search form about `frontend\models\Product`.
